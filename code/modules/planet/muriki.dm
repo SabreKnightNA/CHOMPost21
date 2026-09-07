@@ -140,7 +140,7 @@ GLOBAL_DATUM(planet_muriki, /datum/planet/muriki)
 
 /datum/weather/muriki/proc/wet_plating(chance)
 	if(holder.our_planet.planet_floors.len)
-		var/i = rand(6,18)
+		var/i = rand(18,36)
 		while(i-- > 0)
 			if(!prob(chance))
 				continue
