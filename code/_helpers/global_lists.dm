@@ -305,8 +305,8 @@ GLOBAL_LIST_EMPTY(mannequins)
 	for(var/species_name in GLOB.playable_species)
 		if(species_name in blacklisted_icons)
 			continue
-		var/datum/species/S = GLOB.all_species[species_name]
 		/* Outpost 21 edit - Allow any custom species base
+		var/datum/species/S = GLOB.all_species[species_name]
 		if(S.spawn_flags & SPECIES_IS_WHITELISTED)
 			continue
 		*/
