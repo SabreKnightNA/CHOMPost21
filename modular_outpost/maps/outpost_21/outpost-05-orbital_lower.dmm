@@ -2016,6 +2016,18 @@
 	},
 /turf/simulated/floor/tiled/milspec,
 /area/offworld/orbital/station/halls/lower/port)
+"eF" = (
+/obj/effect/floor_decal/corner/orange{
+	dir = 5
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/machinery/firealarm{
+	pixel_y = 26
+	},
+/turf/simulated/floor/tiled/milspec,
+/area/offworld/orbital/station/halls/lower/fore)
 "eG" = (
 /obj/machinery/rnd/production/protolathe/department/engineering,
 /obj/structure/disposalpipe/segment{
@@ -3658,7 +3670,6 @@
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
-/obj/structure/dispenser/oxygen,
 /turf/simulated/floor/tiled/milspec,
 /area/offworld/orbital/station/halls/rust_entry)
 "it" = (
@@ -4551,6 +4562,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
+/obj/structure/bed/chair/bay/chair/padded/purple{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/offworld/orbital/station/rust_control)
 "kc" = (
@@ -4700,22 +4714,10 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/offworld/orbital/station/access_shaft/lower)
 "kq" = (
-/obj/structure/table/rack{
-	dir = 8;
-	layer = 2.9
+/obj/effect/floor_decal/corner/orange{
+	dir = 5
 	},
-/obj/item/clothing/shoes/magboots,
-/obj/item/clothing/mask/breath,
-/obj/item/clothing/suit/space/void/engineering/hazmat,
-/obj/item/clothing/head/helmet/space/void/engineering/hazmat,
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/machinery/door/window/southleft{
-	name = "Hazmat Storage";
-	req_one_access = list(11,24)
-	},
-/turf/simulated/floor/tiled/techfloor,
+/turf/simulated/floor/tiled/milspec,
 /area/offworld/orbital/station/halls/rust_entry)
 "kr" = (
 /obj/effect/floor_decal/steeldecal/steel_decals10{
@@ -5352,6 +5354,17 @@
 /obj/effect/floor_decal/corner/lightgrey/border,
 /turf/simulated/floor/tiled/milspec,
 /area/offworld/orbital/station/access_shaft/lower)
+"lr" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/tiled/milspec,
+/area/offworld/orbital/station/halls/lower/fore)
 "ls" = (
 /obj/machinery/light,
 /obj/effect/floor_decal/borderfloor,
@@ -6273,22 +6286,10 @@
 /obj/structure/cable/green{
 	icon_state = "2-5"
 	},
-/obj/structure/table/rack{
-	dir = 8;
-	layer = 2.9
+/obj/effect/floor_decal/corner/orange{
+	dir = 5
 	},
-/obj/item/clothing/shoes/magboots,
-/obj/item/clothing/mask/breath,
-/obj/item/clothing/suit/space/void/engineering/hazmat,
-/obj/item/clothing/head/helmet/space/void/engineering/hazmat,
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/obj/machinery/door/window/southright{
-	name = "Hazmat Storage";
-	req_one_access = list(11,24)
-	},
-/turf/simulated/floor/tiled/techfloor,
+/turf/simulated/floor/tiled/milspec,
 /area/offworld/orbital/station/halls/rust_entry)
 "ni" = (
 /obj/machinery/light{
@@ -6555,7 +6556,6 @@
 	dir = 4;
 	anchored = 1
 	},
-/obj/structure/cable/heavyduty,
 /obj/structure/cable/yellow{
 	icon_state = "0-2"
 	},
@@ -7332,6 +7332,14 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/ai_sat/atmos)
+"pk" = (
+/obj/structure/closet/radiation,
+/obj/item/clothing/suit/radiation/teshari,
+/obj/item/clothing/suit/radiation/teshari,
+/obj/item/clothing/head/radiation/teshari,
+/obj/item/clothing/head/radiation/teshari,
+/turf/simulated/floor/tiled/milspec,
+/area/offworld/orbital/station/halls/lower/fore)
 "pl" = (
 /obj/effect/floor_decal/corner/white/full{
 	dir = 8
@@ -8131,6 +8139,19 @@
 	},
 /turf/simulated/floor/tiled/kafel_full,
 /area/offworld/orbital/station/spelunker)
+"qN" = (
+/obj/machinery/door/firedoor/glass,
+/obj/machinery/door/airlock/glass_engineering{
+	name = "Engineering Hallway";
+	req_one_access = list(10,24,29,40)
+	},
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/tiled/techfloor,
+/area/offworld/orbital/station/halls/lower/fore)
 "qO" = (
 /obj/effect/floor_decal/steeldecal/steel_decals3{
 	dir = 6
@@ -8685,6 +8706,14 @@
 	},
 /turf/simulated/floor/tiled/milspec,
 /area/offworld/orbital/station/access_shaft/lower)
+"rP" = (
+/obj/machinery/door/firedoor/glass,
+/obj/machinery/door/airlock/glass_engineering{
+	name = "Engineering Hallway";
+	req_one_access = list(10,24,29,40)
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/offworld/orbital/station/halls/lower/fore)
 "rQ" = (
 /obj/effect/floor_decal/corner/orange{
 	dir = 6
@@ -8881,11 +8910,9 @@
 /obj/effect/floor_decal/corner/orange{
 	dir = 10
 	},
-/obj/structure/closet/radiation,
-/obj/item/clothing/suit/radiation/teshari,
-/obj/item/clothing/suit/radiation/teshari,
-/obj/item/clothing/head/radiation/teshari,
-/obj/item/clothing/head/radiation/teshari,
+/obj/effect/floor_decal/corner/orange{
+	dir = 10
+	},
 /turf/simulated/floor/tiled/milspec,
 /area/offworld/orbital/station/halls/rust_entry)
 "sk" = (
@@ -9364,6 +9391,19 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/milspec,
 /area/offworld/orbital/station/rust_tool_storage)
+"th" = (
+/obj/item/radio/intercom{
+	dir = 8;
+	name = "Station Intercom (General)";
+	pixel_x = -24;
+	listening = 1;
+	pixel_y = 0
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/milspec,
+/area/offworld/orbital/station/halls/lower/fore)
 "ti" = (
 /obj/machinery/camera/network/engineering_outpost{
 	c_tag = "REX - Atmospherics South";
@@ -9755,6 +9795,17 @@
 	},
 /turf/simulated/floor/plating,
 /area/offworld/orbital/station/rust_core)
+"tX" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 8
+	},
+/obj/machinery/firealarm{
+	dir = 4;
+	layer = 3.3;
+	pixel_x = 26
+	},
+/turf/simulated/floor/tiled/milspec,
+/area/offworld/orbital/station/halls/lower/fore)
 "tY" = (
 /obj/machinery/fusion_fuel_injector{
 	dir = 2;
@@ -10299,6 +10350,21 @@
 	},
 /turf/simulated/floor/plating,
 /area/offworld/orbital/station/rust_core)
+"vd" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/extinguisher_cabinet{
+	dir = 4;
+	pixel_x = -30;
+	pixel_y = -6
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/milspec,
+/area/offworld/orbital/station/halls/lower/fore)
 "ve" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -10898,6 +10964,9 @@
 /obj/structure/cable/green{
 	icon_state = "1-4"
 	},
+/obj/machinery/light/small{
+	dir = 8
+	},
 /turf/simulated/floor/plating,
 /area/offworld/orbital/station/rust_aux_tool_storage)
 "wy" = (
@@ -10964,11 +11033,6 @@
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
-/obj/machinery/light_switch{
-	pixel_x = -27;
-	pixel_y = -27;
-	dir = 1
-	},
 /turf/simulated/floor/tiled/milspec,
 /area/offworld/orbital/station/rust_aux_tool_storage)
 "wF" = (
@@ -10978,6 +11042,9 @@
 /obj/structure/extinguisher_cabinet{
 	pixel_y = -30;
 	dir = 1
+	},
+/obj/machinery/light{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/milspec,
 /area/offworld/orbital/station/rust_aux_tool_storage)
@@ -11012,11 +11079,123 @@
 	},
 /turf/simulated/floor/tiled/milspec,
 /area/offworld/orbital/station/rust_aux_tool_storage)
+"wJ" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/milspec,
+/area/offworld/orbital/station/halls/lower/fore)
+"wK" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/milspec,
+/area/offworld/orbital/station/halls/lower/fore)
+"wL" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/milspec,
+/area/offworld/orbital/station/halls/lower/fore)
+"wM" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/milspec,
+/area/offworld/orbital/station/halls/lower/fore)
+"wN" = (
+/obj/machinery/atmospherics/unary/vent_pump/on,
+/obj/machinery/alarm{
+	pixel_y = 26
+	},
+/turf/simulated/floor/tiled/milspec,
+/area/offworld/orbital/station/halls/lower/fore)
 "wO" = (
 /turf/simulated/wall/r_wall{
 	can_open = 1
 	},
 /area/maintenance/orbital/lower/aft)
+"wP" = (
+/obj/structure/dispenser/oxygen,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/milspec,
+/area/offworld/orbital/station/halls/lower/fore)
+"wQ" = (
+/turf/simulated/floor/tiled/milspec,
+/area/offworld/orbital/station/halls/lower/fore)
+"wR" = (
+/obj/structure/table/rack{
+	dir = 8;
+	layer = 2.9
+	},
+/obj/item/clothing/shoes/magboots,
+/obj/item/clothing/mask/breath,
+/obj/item/clothing/suit/space/void/engineering/hazmat,
+/obj/item/clothing/head/helmet/space/void/engineering/hazmat,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/machinery/door/window/southleft{
+	name = "Hazmat Storage";
+	req_one_access = list(11,24)
+	},
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/offworld/orbital/station/halls/lower/fore)
+"wS" = (
+/obj/structure/table/rack{
+	dir = 8;
+	layer = 2.9
+	},
+/obj/item/clothing/shoes/magboots,
+/obj/item/clothing/mask/breath,
+/obj/item/clothing/suit/space/void/engineering/hazmat,
+/obj/item/clothing/head/helmet/space/void/engineering/hazmat,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/machinery/door/window/southright{
+	name = "Hazmat Storage";
+	req_one_access = list(11,24)
+	},
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/offworld/orbital/station/halls/lower/fore)
+"wT" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/bed/chair/bay/chair/padded/purple{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/offworld/orbital/station/rust_control)
+"wU" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	icon_state = "4-8"
+	},
+/obj/machinery/light_switch{
+	pixel_x = -27;
+	pixel_y = -27;
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/offworld/orbital/station/rust_aux_tool_storage)
 "wX" = (
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
 	dir = 4
@@ -11583,15 +11762,12 @@
 /turf/simulated/floor/plating,
 /area/offworld/orbital/station/rust_core)
 "Bt" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 10
+/obj/structure/disposalpipe/junction,
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 10
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 2;
-	icon_state = "pipe-c"
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/milspec,
 /area/offworld/orbital/station/halls/lower/fore)
@@ -12489,7 +12665,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/table/standard,
 /obj/item/tape_roll,
-/obj/item/tape_roll,
 /obj/effect/floor_decal/corner/orange{
 	dir = 6
 	},
@@ -12499,6 +12674,7 @@
 	pixel_x = 22
 	},
 /obj/structure/disposalpipe/segment,
+/obj/item/tape_roll,
 /turf/simulated/floor/tiled/techfloor,
 /area/offworld/orbital/station/rust_control)
 "Ih" = (
@@ -12706,6 +12882,8 @@
 /obj/effect/floor_decal/corner/orange{
 	dir = 9
 	},
+/obj/structure/table/standard,
+/obj/item/binoculars,
 /turf/simulated/floor/tiled/techfloor,
 /area/offworld/orbital/station/rust_control)
 "JN" = (
@@ -13421,12 +13599,12 @@
 /turf/simulated/floor/tiled/milspec,
 /area/offworld/orbital/station/beam_emitter)
 "OQ" = (
-/obj/effect/floor_decal/corner/orange/full,
-/obj/structure/closet/radiation,
-/obj/item/clothing/suit/radiation/teshari,
-/obj/item/clothing/suit/radiation/teshari,
-/obj/item/clothing/head/radiation/teshari,
-/obj/item/clothing/head/radiation/teshari,
+/obj/effect/floor_decal/corner/orange{
+	dir = 9
+	},
+/obj/effect/floor_decal/corner/orange{
+	dir = 10
+	},
 /turf/simulated/floor/tiled/milspec,
 /area/offworld/orbital/station/halls/rust_entry)
 "OS" = (
@@ -14401,9 +14579,6 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/offworld/orbital/station/halls/rust_entry)
 "Ws" = (
-/obj/effect/floor_decal/corner/orange/full{
-	dir = 1
-	},
 /obj/structure/cable/yellow{
 	icon_state = "2-8"
 	},
@@ -27383,7 +27558,7 @@ iT
 iT
 eD
 iT
-wy
+wU
 iT
 eW
 eW
@@ -28698,7 +28873,7 @@ sI
 Wt
 Gt
 aW
-jW
+wT
 UB
 UB
 UB
@@ -33403,7 +33578,7 @@ cN
 qs
 qs
 qs
-yu
+eF
 em
 Ty
 KZ
@@ -33561,10 +33736,10 @@ eW
 eW
 qs
 cR
-qs
-qs
-cF
-qs
+fw
+fw
+fw
+fw
 wa
 em
 Pm
@@ -33720,14 +33895,14 @@ eW
 eW
 eW
 eW
-eW
+qs
 qs
 cR
-qs
-cF
-cF
-qs
-CJ
+fw
+XW
+vd
+qN
+lr
 Bt
 ds
 ds
@@ -33881,14 +34056,14 @@ eW
 eW
 eW
 eW
-eW
-eW
+qs
 qs
 cN
-qs
-cF
-cF
-qs
+cN
+fw
+wN
+wJ
+rP
 Ws
 dJ
 dw
@@ -34043,14 +34218,14 @@ eW
 eW
 eW
 eW
-eW
-eW
 qs
 cN
-qs
-qs
-cF
-qs
+cN
+fw
+fw
+wP
+wK
+fw
 fw
 fw
 fw
@@ -34205,16 +34380,16 @@ eW
 eW
 eW
 eW
-eW
-eW
 qs
-cN
 fJ
 qs
-cF
-cF
-cF
-cF
+fw
+wR
+wQ
+wL
+th
+pk
+fw
 cF
 cF
 cF
@@ -34367,16 +34542,16 @@ eW
 eW
 eW
 eW
-eW
-eW
-qs
 qs
 cN
 qs
-cF
-cF
-cF
-qs
+fw
+wS
+wQ
+wM
+tX
+pk
+fw
 qs
 qs
 qs
@@ -34529,16 +34704,16 @@ eW
 eW
 eW
 eW
-eW
-eW
-eW
 qs
 cN
-qs
-qs
-qs
-qs
-qs
+cN
+fw
+fw
+fw
+fw
+fw
+fw
+fw
 cN
 fJ
 cN
@@ -34691,12 +34866,12 @@ xM
 eW
 eW
 eW
-eW
-eW
-eW
+qs
 qs
 cN
 cN
+cN
+qs
 qs
 dU
 cX
@@ -34854,10 +35029,10 @@ xM
 xM
 eW
 eW
-eW
-eW
 qs
 qs
+qs
+cN
 cR
 cR
 cN
@@ -35018,7 +35193,7 @@ xM
 eW
 eW
 eW
-eW
+qs
 qs
 qs
 cU
@@ -35181,7 +35356,7 @@ xM
 eW
 eW
 eW
-eW
+qs
 qs
 cN
 qs

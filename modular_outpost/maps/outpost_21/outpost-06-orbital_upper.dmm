@@ -17478,24 +17478,6 @@
 	},
 /turf/simulated/floor/tiled/milspec,
 /area/offworld/orbital/station/power_distribution)
-"GZ" = (
-/obj/structure/table/rack{
-	dir = 8;
-	layer = 2.6
-	},
-/obj/item/clothing/shoes/magboots,
-/obj/item/clothing/suit/space/void/engineering/hazmat,
-/obj/item/clothing/mask/breath,
-/obj/item/clothing/head/helmet/space/void/engineering/hazmat,
-/obj/structure/window/reinforced{
-	health = 1e+006
-	},
-/obj/machinery/door/window/westright{
-	name = "Hazmat Storage";
-	req_one_access = list(11,24)
-	},
-/turf/simulated/floor/tiled/techfloor,
-/area/offworld/orbital/station/power_distribution)
 "Ha" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/aux{
 	dir = 10
@@ -17517,24 +17499,6 @@
 /area/ai_sat/core_external)
 "Hc" = (
 /turf/simulated/wall/r_wall,
-/area/offworld/orbital/station/power_distribution)
-"Hd" = (
-/obj/structure/table/rack{
-	dir = 8;
-	layer = 2.6
-	},
-/obj/item/clothing/shoes/magboots,
-/obj/item/clothing/suit/space/void/engineering/hazmat,
-/obj/item/clothing/mask/breath,
-/obj/item/clothing/head/helmet/space/void/engineering/hazmat,
-/obj/structure/window/reinforced{
-	dir = 1
-	},
-/obj/machinery/door/window/westleft{
-	req_one_access = list(11,24);
-	name = "Hazmat Storage"
-	},
-/turf/simulated/floor/tiled/techfloor,
 /area/offworld/orbital/station/power_distribution)
 "He" = (
 /obj/machinery/door/airlock/glass_command{
@@ -17574,6 +17538,37 @@
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/techmaint,
 /area/maintenance/orbital/fore)
+"Hj" = (
+/obj/effect/floor_decal/corner/orange{
+	dir = 6
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/milspec,
+/area/offworld/orbital/station/power_distribution)
+"Hk" = (
+/obj/structure/table/rack{
+	dir = 8;
+	layer = 2.6
+	},
+/obj/item/clothing/shoes/magboots,
+/obj/item/clothing/suit/space/void/engineering/hazmat,
+/obj/item/clothing/mask/breath,
+/obj/item/clothing/head/helmet/space/void/engineering/hazmat,
+/obj/structure/window/reinforced{
+	health = 1e+006
+	},
+/obj/machinery/door/window/westright{
+	name = "Hazmat Storage";
+	req_one_access = list(11,24)
+	},
+/obj/structure/window/reinforced{
+	dir = 4;
+	health = 1e+006
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/offworld/orbital/station/power_distribution)
 "Hl" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced{
@@ -17591,6 +17586,28 @@
 "Hm" = (
 /turf/simulated/wall/r_wall,
 /area/ai_cyborg_station)
+"Hn" = (
+/obj/structure/table/rack{
+	dir = 8;
+	layer = 2.6
+	},
+/obj/item/clothing/shoes/magboots,
+/obj/item/clothing/suit/space/void/engineering/hazmat,
+/obj/item/clothing/mask/breath,
+/obj/item/clothing/head/helmet/space/void/engineering/hazmat,
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/machinery/door/window/westleft{
+	req_one_access = list(11,24);
+	name = "Hazmat Storage"
+	},
+/obj/structure/window/reinforced{
+	dir = 4;
+	health = 1e+006
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/offworld/orbital/station/power_distribution)
 "Ht" = (
 /obj/structure/railing/grey,
 /obj/machinery/power/terminal{
@@ -19760,9 +19777,6 @@
 /turf/simulated/floor/tiled/milspec,
 /area/offworld/orbital/station/halls/aft)
 "Pt" = (
-/obj/machinery/light{
-	dir = 4
-	},
 /obj/effect/floor_decal/corner/orange{
 	dir = 6
 	},
@@ -40939,9 +40953,9 @@ Ck
 EU
 Lo
 oN
-Hd
-GZ
-hS
+Jg
+Jg
+Hj
 hS
 Pt
 Hc
@@ -41101,11 +41115,11 @@ Hc
 Hc
 Hc
 Hc
-Hc
+Hn
+Hk
 Hc
 xf
 rk
-Hc
 Hc
 yf
 aQ
@@ -41262,10 +41276,10 @@ bX
 bX
 bX
 bX
-bX
-bX
-aR
-aR
+Hc
+Hc
+Hc
+Hc
 aR
 aR
 bB
