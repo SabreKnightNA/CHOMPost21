@@ -10423,7 +10423,8 @@
 	dir = 9
 	},
 /obj/item/perfect_tele_beacon/stationary{
-	tele_name = "Engineering"
+	tele_name = "Engineering";
+	tele_network = "outpost"
 	},
 /turf/simulated/floor/tiled,
 /area/muriki/tramstation/cargeng)

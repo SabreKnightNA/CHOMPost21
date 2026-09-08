@@ -5883,6 +5883,7 @@
 #include "modular_outpost\code\game\objects\items\devices\laserdesignator.dm"
 #include "modular_outpost\code\game\objects\items\devices\spy_bug.dm"
 #include "modular_outpost\code\game\objects\items\devices\taperecorder.dm"
+#include "modular_outpost\code\game\objects\items\devices\translocator.dm"
 #include "modular_outpost\code\game\objects\items\devices\tvcamera.dm"
 #include "modular_outpost\code\game\objects\items\devices\radio\encryptionkey.dm"
 #include "modular_outpost\code\game\objects\items\devices\radio\headset.dm"
