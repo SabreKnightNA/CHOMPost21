@@ -17504,12 +17504,6 @@
 "Hc" = (
 /turf/simulated/wall/r_wall,
 /area/offworld/orbital/station/power_distribution)
-"Hd" = (
-/obj/machinery/light/small{
-	dir = 8
-	},
-/turf/simulated/floor/airless,
-/area/offworld/orbital/exterior)
 "He" = (
 /obj/machinery/door/airlock/glass_command{
 	req_one_access = list(16,52,56)
@@ -45636,7 +45630,7 @@ CR
 Dc
 CR
 bi
-Hd
+tP
 tP
 tP
 tP
