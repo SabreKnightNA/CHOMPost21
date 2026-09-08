@@ -1020,6 +1020,7 @@ GLOBAL_DATUM(planet_muriki, /datum/planet/muriki)
 	effect_flags = HAS_PLANET_EFFECT | EFFECT_ONLY_LIVING
 	hazardous_weather = TRUE
 	shuttle_crash_chance = 30
+	limits_vision = TRUE
 
 /datum/weather/muriki/ash_storm/planet_effect(mob/living/L)
 	if(L.z in holder.our_planet.expected_z_levels)
@@ -1089,6 +1090,7 @@ GLOBAL_DATUM(planet_muriki, /datum/planet/muriki)
 	)
 	hazardous_weather = TRUE
 	shuttle_crash_chance = 15
+	limits_vision = TRUE
 
 /////////////////////////////////////////////////////////////////////////////////////////
 // EVIL DARKNESS
@@ -1112,6 +1114,7 @@ GLOBAL_DATUM(planet_muriki, /datum/planet/muriki)
 	)
 	hazardous_weather = TRUE
 	shuttle_crash_chance = 3 // rare
+	limits_vision = TRUE
 
 /datum/weather/muriki/clear/hidden_evildarkness/process_effects()
 	. = ..()
