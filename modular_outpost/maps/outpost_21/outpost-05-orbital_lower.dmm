@@ -4002,19 +4002,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/offworld/orbital/station/halls/lower/port)
-"jc" = (
-/obj/effect/floor_decal/corner/purple{
-	dir = 10
-	},
-/obj/machinery/disposal/wall{
-	pixel_y = -32;
-	dir = 1
-	},
-/obj/structure/disposalpipe/trunk{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/white,
-/area/offworld/orbital/phoronics)
 "jd" = (
 /obj/structure/cable/green{
 	icon_state = "1-4"
@@ -15075,7 +15062,7 @@
 	},
 /turf/simulated/floor/tiled/milspec,
 /area/offworld/orbital/station/backup_power)
-"DY" = (
+"DX" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
 	},
@@ -15091,7 +15078,7 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/offworld/orbital/phoronics)
-"DZ" = (
+"DY" = (
 /obj/effect/floor_decal/corner/purple{
 	dir = 4
 	},
@@ -15116,7 +15103,7 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/offworld/orbital/phoronics)
-"Ea" = (
+"DZ" = (
 /obj/effect/floor_decal/corner/purple{
 	dir = 6
 	},
@@ -15136,13 +15123,30 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/offworld/orbital/phoronics)
-"Eb" = (
+"Ea" = (
 /obj/random/maintenance/misc,
 /obj/machinery/light/small{
 	dir = 4
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/orbital/lower/aft)
+"Eb" = (
+/obj/structure/table/rack,
+/obj/machinery/door/window/westleft{
+	dir = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/window/reinforced{
+	dir = 8;
+	pixel_x = -3
+	},
+/obj/item/clothing/suit/space/anomaly,
+/obj/item/clothing/mask/breath,
+/obj/item/clothing/head/helmet/space/anomaly,
+/turf/simulated/floor/tiled/techfloor,
+/area/offworld/orbital/phoronics/airlock)
 "Ec" = (
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
 	dir = 10
@@ -15162,23 +15166,6 @@
 /turf/simulated/floor/tiled/milspec,
 /area/offworld/orbital/station/beam_emitter)
 "Ee" = (
-/obj/structure/table/rack,
-/obj/machinery/door/window/westleft{
-	dir = 4
-	},
-/obj/structure/window/reinforced{
-	dir = 1
-	},
-/obj/structure/window/reinforced{
-	dir = 8;
-	pixel_x = -3
-	},
-/obj/item/clothing/suit/space/anomaly,
-/obj/item/clothing/mask/breath,
-/obj/item/clothing/head/helmet/space/anomaly,
-/turf/simulated/floor/tiled/techfloor,
-/area/offworld/orbital/phoronics/airlock)
-"Ef" = (
 /obj/effect/floor_decal/corner/purple{
 	dir = 5
 	},
@@ -15190,7 +15177,7 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/offworld/orbital/phoronics/airlock)
-"Eg" = (
+"Ef" = (
 /obj/structure/dispenser/oxygen,
 /obj/effect/floor_decal/corner/purple{
 	dir = 5
@@ -15208,7 +15195,7 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/offworld/orbital/phoronics/airlock)
-"Eh" = (
+"Eg" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume{
 	frequency = 1381
 	},
@@ -15224,7 +15211,7 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/offworld/orbital/phoronics/airlock)
-"Ei" = (
+"Eh" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume{
 	frequency = 1381
 	},
@@ -15243,7 +15230,7 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/offworld/orbital/phoronics/airlock)
-"Ej" = (
+"Ei" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume{
 	frequency = 1381
 	},
@@ -15256,11 +15243,7 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/offworld/orbital/phoronics/airlock)
-"Ek" = (
-/obj/structure/dispenser,
-/turf/simulated/floor/plating,
-/area/offworld/orbital/station/aux_equipment)
-"El" = (
+"Ej" = (
 /obj/machinery/door/airlock/glass_research{
 	name = "Phoronics";
 	req_access = list(8);
@@ -15269,11 +15252,28 @@
 /obj/item/tape/engineering,
 /turf/simulated/floor/tiled/techfloor,
 /area/offworld/orbital/station/halls/lower/aft)
-"Em" = (
+"Ek" = (
+/obj/structure/dispenser,
+/turf/simulated/floor/plating,
+/area/offworld/orbital/station/aux_equipment)
+"El" = (
 /obj/effect/floor_decal/corner/purple{
 	dir = 10
 	},
 /obj/effect/floor_decal/corner/purple{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white,
+/area/offworld/orbital/phoronics)
+"Em" = (
+/obj/effect/floor_decal/corner/purple{
+	dir = 10
+	},
+/obj/machinery/disposal/wall{
+	pixel_y = -32;
+	dir = 1
+	},
+/obj/structure/disposalpipe/trunk{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
@@ -37156,7 +37156,7 @@ ax
 ax
 ax
 Er
-El
+Ej
 zq
 zq
 zq
@@ -37318,7 +37318,7 @@ EY
 EQ
 EG
 Es
-Em
+El
 zq
 Dt
 CT
@@ -37804,7 +37804,7 @@ Fb
 ET
 EL
 Ew
-jc
+Em
 zq
 Dx
 BV
@@ -38291,7 +38291,7 @@ EU
 EM
 Ez
 CX
-DY
+DX
 Cz
 BX
 BW
@@ -38453,7 +38453,7 @@ EX
 EO
 EA
 Eo
-DZ
+DY
 CA
 Cz
 BX
@@ -38615,7 +38615,7 @@ bo
 bo
 bo
 bo
-Ea
+DZ
 Dz
 CA
 Cz
@@ -39911,7 +39911,7 @@ ab
 bq
 eP
 bq
-Eb
+Ea
 bq
 bq
 CH
@@ -40235,7 +40235,7 @@ bo
 hl
 bo
 CI
-Ee
+Eb
 DM
 Dc
 CK
@@ -40397,7 +40397,7 @@ eK
 bq
 an
 CI
-Ef
+Ee
 DN
 Dd
 CI
@@ -40559,7 +40559,7 @@ eM
 eK
 kd
 CI
-Eg
+Ef
 DO
 Df
 CI
@@ -40883,7 +40883,7 @@ df
 bq
 pw
 CI
-Eh
+Eg
 DQ
 Dh
 CI
@@ -41045,7 +41045,7 @@ eN
 df
 aD
 CI
-Ei
+Eh
 DQ
 Dk
 CI
@@ -41207,7 +41207,7 @@ bq
 eL
 XC
 CI
-Ej
+Ei
 DR
 Dm
 CI
