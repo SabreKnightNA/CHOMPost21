@@ -592,35 +592,35 @@ EXTERIOR_AREA_BEHAVIOR(/area/offworld/orbital/exterior/starboard_solars)
 	name = "\improper Orbital Maintenance Lower Starboard"
 	sound_env = SMALL_ENCLOSED
 
-/area/maintenance/orbital/phoronics
+/area/offworld/orbital/phoronics
 	name = "\improper Orbital Phoronics Lab"
 	icon_state = "toxtest"
 	sound_env = SMALL_ENCLOSED
 	ambience = AMBIENCE_GENERIC
 	holomap_color = HOLOMAP_AREACOLOR_ENGINEERING
 
-/area/maintenance/orbital/phoronics/bomb_test_range
+/area/offworld/orbital/phoronics/bomb_test_range
 	name = "\improper Orbital Bomb Test Range"
 	icon_state = "orange"
 
-/area/maintenance/orbital/phoronics/burn_chamber
+/area/offworld/orbital/phoronics/burn_chamber
 	name = "\improper Orbital Phoronics Burn Chamber"
 	icon_state = "red"
 
-/area/maintenance/orbital/phoronics/overflow_storage
+/area/offworld/orbital/phoronics/overflow_storage
 	name = "\improper Orbital Phoronics Overflow Storage"
 	icon_state = "locker"
 
-/area/maintenance/orbital/phoronics/pressure_release
+/area/offworld/orbital/phoronics/pressure_release
 	name = "\improper Orbital Phoronics Pressure Release Chamber"
 
-/area/maintenance/orbital/phoronics/breakroom
+/area/offworld/orbital/phoronics/breakroom
 	name = "\improper Orbital Phoronics Breakroom"
 
-/area/maintenance/orbital/phoronics/gas_storage
+/area/offworld/orbital/phoronics/gas_storage
 	name = "\improper Orbital Phoronics Gas Storage"
 	icon_state = "locker"
 
-/area/maintenance/orbital/phoronics/airlock
+/area/offworld/orbital/phoronics/airlock
 	name = "\improper Orbital Phoronics Airlock"
 	icon_state = "decontamination"
