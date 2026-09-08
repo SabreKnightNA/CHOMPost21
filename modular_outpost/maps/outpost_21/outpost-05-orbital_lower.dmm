@@ -13638,18 +13638,12 @@
 "BD" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/structure/disposalpipe/junction{
-	dir = 1
-	},
+/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/white,
 /area/offworld/orbital/phoronics/burn_chamber)
 "BE" = (
 /obj/machinery/atmospherics/portables_connector,
 /obj/effect/floor_decal/industrial/outline/red,
-/obj/structure/disposalpipe/segment{
-	dir = 8;
-	icon_state = "pipe-c"
-	},
 /turf/simulated/floor/tiled/white,
 /area/offworld/orbital/phoronics/burn_chamber)
 "BF" = (
@@ -13681,30 +13675,65 @@
 /obj/machinery/atmospherics/pipe/simple/visible/red{
 	dir = 10
 	},
-/obj/structure/disposalpipe/segment,
+/obj/structure/disposalpipe/junction{
+	dir = 1
+	},
+/obj/structure/cable/green{
+	icon_state = "1-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/aux{
+	dir = 5
+	},
 /turf/simulated/floor/tiled/white,
 /area/offworld/orbital/phoronics/burn_chamber)
 "BJ" = (
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 1
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/aux{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
 /area/offworld/orbital/phoronics/burn_chamber)
 "BK" = (
-/obj/structure/cable/green{
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+/obj/structure/disposalpipe/segment{
+	icon_state = "pipe-c";
 	dir = 8
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 1
+/obj/structure/cable/green{
+	icon_state = "2-8"
 	},
+/obj/structure/cable/green{
+	icon_state = "1-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/aux{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
 /turf/simulated/floor/tiled/white,
 /area/offworld/orbital/phoronics/burn_chamber)
 "BL" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
 	},
 /turf/simulated/floor/tiled/white,
 /area/offworld/orbital/phoronics/burn_chamber)
@@ -13895,12 +13924,12 @@
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
-/obj/structure/disposalpipe/segment{
-	icon_state = "pipe-c";
-	dir = 2
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/aux{
 	dir = 4
+	},
+/obj/structure/disposalpipe/junction{
+	dir = 8;
+	icon_state = "pipe-j2"
 	},
 /turf/simulated/floor/tiled/white,
 /area/offworld/orbital/phoronics/burn_chamber)
@@ -13918,7 +13947,6 @@
 	dir = 4
 	},
 /obj/structure/disposalpipe/segment{
-	icon_state = "pipe-c";
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
@@ -13969,24 +13997,21 @@
 /turf/simulated/floor/tiled/white,
 /area/offworld/orbital/phoronics/burn_chamber)
 "Cg" = (
-/obj/effect/floor_decal/corner/purple{
-	dir = 5
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 8
-	},
-/obj/structure/cable/green{
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/aux{
-	dir = 4
-	},
 /obj/structure/disposalpipe/junction{
 	dir = 8;
 	icon_state = "pipe-j2"
+	},
+/obj/structure/cable/green{
+	icon_state = "2-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/aux{
+	dir = 10
 	},
 /turf/simulated/floor/tiled/white,
 /area/offworld/orbital/phoronics/burn_chamber)
@@ -14005,45 +14030,22 @@
 /turf/simulated/floor/plating,
 /area/offworld/orbital/station/rust_backup_power)
 "Cj" = (
-/obj/effect/floor_decal/corner/purple{
-	dir = 5
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 8
-	},
-/obj/structure/cable/green{
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/aux{
-	dir = 4
-	},
 /obj/machinery/disposal/wall{
 	pixel_y = 32
 	},
 /obj/structure/disposalpipe/trunk{
 	dir = 8
 	},
+/obj/effect/floor_decal/corner/purple{
+	dir = 5
+	},
 /turf/simulated/floor/tiled/white,
 /area/offworld/orbital/phoronics/burn_chamber)
 "Ck" = (
-/obj/structure/cable/green{
-	icon_state = "2-8"
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/aux{
-	dir = 9
-	},
-/obj/structure/cable/green{
-	icon_state = "1-8"
-	},
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/aux,
 /turf/simulated/floor/tiled/white,
 /area/offworld/orbital/phoronics/burn_chamber)
 "Cl" = (
@@ -14054,6 +14056,7 @@
 	dir = 1
 	},
 /obj/structure/closet/firecloset/full,
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
 /turf/simulated/floor/tiled/white,
 /area/offworld/orbital/phoronics/burn_chamber)
 "Cm" = (
@@ -14115,6 +14118,11 @@
 /obj/machinery/alarm{
 	dir = 1;
 	pixel_y = -24
+	},
+/obj/structure/extinguisher_cabinet{
+	dir = 4;
+	pixel_x = -30;
+	pixel_y = -6
 	},
 /turf/simulated/floor/wood,
 /area/offworld/orbital/phoronics/breakroom)
@@ -14309,6 +14317,7 @@
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
+/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/techfloor,
 /area/offworld/orbital/phoronics/airlock)
 "CL" = (
@@ -14521,6 +14530,10 @@
 	pixel_x = 24;
 	pixel_y = -28
 	},
+/obj/structure/disposalpipe/segment{
+	dir = 4;
+	icon_state = "pipe-c"
+	},
 /turf/simulated/floor/tiled/white,
 /area/offworld/orbital/phoronics/airlock)
 "Dd" = (
@@ -14539,6 +14552,10 @@
 	},
 /obj/structure/cable/green{
 	icon_state = "4-8"
+	},
+/obj/structure/disposalpipe/segment{
+	icon_state = "pipe-c";
+	dir = 8
 	},
 /turf/simulated/floor/tiled/white,
 /area/offworld/orbital/phoronics/airlock)
@@ -14954,15 +14971,21 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/offworld/orbital/phoronics/airlock)
 "DN" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/aux{
 	dir = 6
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
+	},
+/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/white,
 /area/offworld/orbital/phoronics/airlock)
 "DO" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/aux{
 	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 9
 	},
 /turf/simulated/floor/tiled/white,
 /area/offworld/orbital/phoronics/airlock)
@@ -15156,12 +15179,14 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/offworld/orbital/phoronics/airlock)
 "Ef" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/obj/machinery/atmospherics/unary/vent_pump/on,
 /obj/effect/floor_decal/corner/purple{
 	dir = 5
+	},
+/obj/structure/disposalpipe/trunk{
+	dir = 2
+	},
+/obj/machinery/disposal/wall{
+	pixel_y = 32
 	},
 /turf/simulated/floor/tiled/white,
 /area/offworld/orbital/phoronics/airlock)
@@ -15176,6 +15201,10 @@
 /obj/machinery/firealarm{
 	dir = 4;
 	pixel_x = 26
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on,
+/obj/machinery/light{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
 /area/offworld/orbital/phoronics/airlock)
