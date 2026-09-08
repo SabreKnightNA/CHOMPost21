@@ -190,7 +190,6 @@ GLOBAL_DATUM(planet_muriki, /datum/planet/muriki)
 	switch(GLOB.world_time_season)
 		if("spring")
 			roundstart_weather_chances = list(
-				WEATHER_CLEAR = 0,
 				WEATHER_LIGHT_SNOW = 25,
 				WEATHER_OVERCAST = 3,
 				WEATHER_FOG = 2,
@@ -200,8 +199,6 @@ GLOBAL_DATUM(planet_muriki, /datum/planet/muriki)
 				)
 		if("summer")
 			roundstart_weather_chances = list(
-				WEATHER_CLEAR = 0,
-				WEATHER_LIGHT_SNOW = 0,
 				WEATHER_OVERCAST = 5,
 				WEATHER_FOG = 5,
 				WEATHER_RAIN = 40,
@@ -210,20 +207,15 @@ GLOBAL_DATUM(planet_muriki, /datum/planet/muriki)
 				)
 		if("autumn")
 			roundstart_weather_chances = list(
-				WEATHER_CLEAR = 0,
 				WEATHER_LIGHT_SNOW = 10,
-				WEATHER_OVERCAST = 0,
-				WEATHER_FOG = 0,
 				WEATHER_RAIN = 40,
 				WEATHER_STORM = 40,
 				WEATHER_HAIL = 15
 				)
 		if("winter")
 			roundstart_weather_chances = list(
-				WEATHER_CLEAR = 0,
 				WEATHER_LIGHT_SNOW = 50,
 				WEATHER_OVERCAST = 0,
-				WEATHER_FOG = 0,
 				WEATHER_RAIN = 20,
 				WEATHER_STORM = 10,
 				WEATHER_HAIL = 24,
@@ -378,10 +370,9 @@ GLOBAL_DATUM(planet_muriki, /datum/planet/muriki)
 		if("winter")
 			transition_chances = list(
 				WEATHER_OVERCAST = 10,
-				WEATHER_FOG = 5,
 				WEATHER_RAIN = 40,
 				WEATHER_LIGHT_SNOW = 20,
-				WEATHER_HAIL = 25
+				WEATHER_HAIL = 30
 				)
 	. = ..()
 
@@ -449,8 +440,7 @@ GLOBAL_DATUM(planet_muriki, /datum/planet/muriki)
 			)
 		if("winter")
 			transition_chances = list(
-				WEATHER_OVERCAST = 3,
-				WEATHER_FOG = 2,
+				WEATHER_OVERCAST = 5,
 				WEATHER_RAIN = 15,
 				WEATHER_STORM = 50,
 				WEATHER_LIGHT_SNOW = 10,
@@ -550,9 +540,8 @@ GLOBAL_DATUM(planet_muriki, /datum/planet/muriki)
 				WEATHER_RAIN = 55,
 				WEATHER_STORM = 10,
 				WEATHER_DOWNPOURWARNING = 3, // Fun times ahead
-				WEATHER_HAIL = 25,
+				WEATHER_HAIL = 27,
 				WEATHER_OVERCAST = 5,
-				WEATHER_FOG = 2,
 				)
 	. = ..()
 
