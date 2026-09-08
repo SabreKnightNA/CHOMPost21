@@ -172,7 +172,7 @@ GLOBAL_DATUM(planet_muriki, /datum/planet/muriki)
 		WEATHER_STORM		= new /datum/weather/muriki/acid_storm(),
 		WEATHER_HAIL		= new /datum/weather/muriki/acid_hail(),
 		WEATHER_HOT			= new /datum/weather/muriki/heatwave(),
-		WEATHER_ASH_STORM	= new /datum/weather/muriki/heatwave/lethal(),
+		WEATHER_LETHALHEAT	= new /datum/weather/muriki/heatwave/lethal(),
 		WEATHER_DOWNPOURWARNING = new /datum/weather/muriki/downpourwarning(),
 		WEATHER_DOWNPOUR 		= new /datum/weather/muriki/downpour(),
 		WEATHER_DOWNPOURFATAL 	= new /datum/weather/muriki/downpourfatal(),
@@ -180,6 +180,7 @@ GLOBAL_DATUM(planet_muriki, /datum/planet/muriki)
 		WEATHER_CONFETTI		= new /datum/weather/muriki/confetti(),
 		WEATHER_COLDDARKNESS	= new /datum/weather/muriki/clear/hidden_evildarkness(),
 		WEATHER_LONGBLIZZARD	= new /datum/weather/muriki/blizzard/hidden_dangerous(),
+		WEATHER_ASH_STORM 		= new /datum/weather/muriki/ash_storm(),
 		WEATHER_EMBERFALL 		= new /datum/weather/muriki/emberfall(),
 		WEATHER_BLOOD_MOON 		= new /datum/weather/muriki/blood_moon(),
 		)
@@ -270,7 +271,7 @@ GLOBAL_DATUM(planet_muriki, /datum/planet/muriki)
 				WEATHER_RAIN = 60,
 				WEATHER_HAIL = 5,
 				WEATHER_HOT = 5,
-				WEATHER_ASH_STORM = 5, // Lethal heatwave
+				WEATHER_LETHALHEAT = 5,
 				WEATHER_FOG = 5,
 				)
 		if("autumn")
@@ -305,7 +306,7 @@ GLOBAL_DATUM(planet_muriki, /datum/planet/muriki)
 		WEATHER_RAIN = 10,
 		WEATHER_OVERCAST = 25,
 		WEATHER_HOT = 20,
-		WEATHER_ASH_STORM = 15 // Lethal heatwave
+		WEATHER_LETHALHEAT = 15
 	) // Only used in the summer
 	observed_message = "The heat is unbearable."
 	transition_messages = list(
@@ -1005,6 +1006,39 @@ GLOBAL_DATUM(planet_muriki, /datum/planet/muriki)
 	indoor_sounds_type = /datum/looping_sound/weather/wind/indoors
 	hazardous_weather = TRUE
 	shuttle_crash_chance = 10
+
+// Like the above but a lot more harmful.
+/datum/weather/muriki/ash_storm
+	name = "ash storm"
+	icon_state = "ashfall_heavy"
+	light_modifier = 0.1
+	light_color = "#FF0000"
+	temp_high = T0C +80
+	temp_low = T0C +50
+	wind_high = 6
+	wind_low = 3
+	flight_failure_modifier = 50
+	transition_chances = list(
+		WEATHER_ASH_STORM = 100
+		)
+	observed_message = "All that can be seen is black smoldering ash."
+	transition_messages = list(
+		"Smoldering clouds of scorching ash billow down around you!"
+	)
+	// Lets recycle.
+	outdoor_sounds_type = /datum/looping_sound/weather/outside_blizzard
+	indoor_sounds_type = /datum/looping_sound/weather/inside_blizzard
+	effect_flags = HAS_PLANET_EFFECT | EFFECT_ONLY_LIVING
+	hazardous_weather = TRUE
+	shuttle_crash_chance = 30
+
+/datum/weather/muriki/ash_storm/planet_effect(mob/living/L)
+	if(L.z in holder.our_planet.expected_z_levels)
+		var/turf/T = get_turf(L)
+		if(!T.is_outdoors())
+			return // They're indoors, so no need to burn them with ash.
+
+		L.inflict_heat_damage(rand(1, 3))
 
 /////////////////////////////////////////////////////////////////////////////////////////
 // FIREWORKS
