@@ -674,10 +674,15 @@
 			failed = TRUE
 			TEST_NOTICE(src, "Telebeacon already in use [beacon.tele_name]. Located at [T.x].[T.y].[T.z] : [A]")
 			continue
+		used_tags += beacon.tele_name
+
+	for(var/obj/item/perfect_tele_beacon/stationary/beacon in world)
+		var/turf/T = get_turf(beacon)
+		var/area/A = get_area(beacon)
 		if(beacon.tele_network == null)
+			failed = TRUE
 			TEST_NOTICE(src, "Telebeacon has no assigned tele_network. Located at [T.x].[T.y].[T.z] : [A]")
 			continue
-		used_tags += beacon.tele_name
 
 	if(failed)
 		TEST_FAIL("One or more tele_beacon objects are incorrectly setup or are duplicates")
