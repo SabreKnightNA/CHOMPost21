@@ -4002,6 +4002,19 @@
 	},
 /turf/simulated/floor/plating,
 /area/offworld/orbital/station/halls/lower/port)
+"jc" = (
+/obj/effect/floor_decal/corner/purple{
+	dir = 10
+	},
+/obj/machinery/disposal/wall{
+	pixel_y = -32;
+	dir = 1
+	},
+/obj/structure/disposalpipe/trunk{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white,
+/area/offworld/orbital/phoronics)
 "jd" = (
 /obj/structure/cable/green{
 	icon_state = "1-4"
@@ -15062,19 +15075,6 @@
 	},
 /turf/simulated/floor/tiled/milspec,
 /area/offworld/orbital/station/backup_power)
-"DX" = (
-/obj/effect/floor_decal/corner/purple{
-	dir = 9
-	},
-/obj/machinery/disposal/wall{
-	dir = 4;
-	pixel_x = -35
-	},
-/obj/structure/disposalpipe/trunk{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/white,
-/area/offworld/orbital/phoronics)
 "DY" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
@@ -15085,9 +15085,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/aux{
 	dir = 5
 	},
-/obj/structure/disposalpipe/junction{
-	dir = 4;
-	icon_state = "pipe-j2"
+/obj/structure/disposalpipe/segment{
+	dir = 1;
+	icon_state = "pipe-c"
 	},
 /turf/simulated/floor/tiled/white,
 /area/offworld/orbital/phoronics)
@@ -15460,11 +15460,12 @@
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/aux{
 	dir = 4
+	},
+/obj/structure/disposalpipe/junction{
+	dir = 8;
+	icon_state = "pipe-j2"
 	},
 /turf/simulated/floor/tiled/white,
 /area/offworld/orbital/phoronics)
@@ -37803,7 +37804,7 @@ Fb
 ET
 EL
 Ew
-BY
+jc
 zq
 Dx
 BV
@@ -38128,7 +38129,7 @@ EV
 EM
 Ey
 BZ
-DX
+BB
 BX
 BW
 Cx
