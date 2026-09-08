@@ -674,6 +674,9 @@
 			failed = TRUE
 			TEST_NOTICE(src, "Telebeacon already in use [beacon.tele_name]. Located at [T.x].[T.y].[T.z] : [A]")
 			continue
+		if(beacon.tele_network == NULL)
+			TEST_NOTICE(src, "Telebeacon has no assigned tele_network. Located at [T.x].[T.y].[T.z] : [A]")
+			continue
 		used_tags += beacon.tele_name
 
 	if(failed)
