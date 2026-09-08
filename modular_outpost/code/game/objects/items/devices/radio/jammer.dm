@@ -1,5 +1,5 @@
 // TODO - Upport this all upstream for future maintenance
-/proc/check_radio_jammers(var/turf/Tr)
+/proc/check_radio_jammers(turf/Tr)
 	if(!Tr || !length(GLOB.active_radio_jammers))
 		return null
 
