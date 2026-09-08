@@ -340,6 +340,7 @@ GLOBAL_DATUM(planet_muriki, /datum/planet/muriki)
 	color_grading = COLORTINT_WARM
 
 	hazardous_weather = TRUE
+	limits_vision = TRUE
 
 /datum/weather/muriki/acid_overcast/New()
 	switch(GLOB.world_time_season)
@@ -648,6 +649,7 @@ GLOBAL_DATUM(planet_muriki, /datum/planet/muriki)
 
 	hazardous_weather = TRUE
 	shuttle_crash_chance = 10
+	limits_vision = TRUE
 
 /datum/weather/muriki/downpour/process_effects()
 	..()
@@ -711,6 +713,7 @@ GLOBAL_DATUM(planet_muriki, /datum/planet/muriki)
 
 	hazardous_weather = TRUE
 	shuttle_crash_chance = 25
+	limits_vision = TRUE
 
 /datum/weather/muriki/downpourfatal/process_effects()
 	..()
@@ -921,7 +924,8 @@ GLOBAL_DATUM(planet_muriki, /datum/planet/muriki)
 	color_grading = COLORTINT_COLD
 
 	hazardous_weather = TRUE
-	shuttle_crash_chance = 3 // rare
+	shuttle_crash_chance = 10
+	limits_vision = TRUE
 
 /datum/weather/muriki/blizzard/planet_effect(mob/living/L)
 	if(L.z in holder.our_planet.expected_z_levels)
@@ -1061,7 +1065,7 @@ GLOBAL_DATUM(planet_muriki, /datum/planet/muriki)
 	)
 	imminent_transition_message = "A rain is starting... A rain of confetti...?"
 	color_grading = COLORTINT_OMEN
-	shuttle_crash_chance = 8
+	shuttle_crash_chance = 12
 
 
 
