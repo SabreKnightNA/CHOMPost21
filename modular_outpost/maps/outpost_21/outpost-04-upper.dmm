@@ -1105,7 +1105,6 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/obj/machinery/atmospherics/portables_connector,
 /obj/item/geiger/wall/north,
 /turf/simulated/floor,
 /area/rnd/hallway/phoronicsmainhall)
@@ -1610,17 +1609,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/rnd/research/phoronics/extrastore)
-"adw" = (
-/obj/machinery/portable_atmospherics/powered/scrubber,
-/obj/effect/floor_decal/corner/purple{
-	dir = 10
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/effect/floor_decal/industrial/outline/blue,
-/turf/simulated/floor/tiled/techfloor,
-/area/rnd/research/phoronics/extrastore)
 "adx" = (
 /obj/effect/floor_decal/corner/purple{
 	dir = 10
@@ -1638,7 +1626,6 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/rnd/research/phoronics/extrastore)
 "adz" = (
-/obj/machinery/portable_atmospherics/powered/pump/filled,
 /obj/effect/floor_decal/corner/purple/full{
 	dir = 8
 	},
@@ -1646,7 +1633,6 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/rnd/research/phoronics/extrastore)
 "adA" = (
-/obj/machinery/portable_atmospherics/powered/pump/filled,
 /obj/effect/floor_decal/corner/purple{
 	dir = 5
 	},
@@ -2249,10 +2235,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/medical/patient_wing)
-"aeU" = (
-/mob/living/simple_mob/vore/aggressive/corrupthound/swoopie/randomized,
-/turf/simulated/floor/wood,
-/area/rnd/research/phoronics/breakroom)
 "aeV" = (
 /obj/structure/reagent_dispensers/fueltank,
 /turf/simulated/floor/plating,
@@ -3975,15 +3957,6 @@
 	outdoors = 0
 	},
 /area/muriki/crystal)
-"ajq" = (
-/obj/effect/auto_crayon{
-	icon_state = "nine_removal"
-	},
-/turf/simulated/mineral/floor/turfpack/muriki{
-	ignore_mapgen = 1;
-	outdoors = 1
-	},
-/area/mine/unexplored/muriki/mountaintop_pathway)
 "ajr" = (
 /obj/structure/lattice,
 /obj/structure/ladder,
@@ -5324,12 +5297,10 @@
 "amJ" = (
 /obj/structure/table/rack,
 /obj/fiftyspawner/uranium,
-/obj/fiftyspawner/uranium,
 /turf/simulated/floor/plating,
 /area/muriki/rooftop/medgen)
 "amK" = (
 /obj/structure/table/rack,
-/obj/fiftyspawner/uranium,
 /obj/fiftyspawner/uranium,
 /obj/machinery/light/small,
 /turf/simulated/floor/plating,
@@ -6325,9 +6296,6 @@
 	c_tag = "SEC - Backup Generator";
 	dir = 4
 	},
-/obj/fiftyspawner/uranium,
-/obj/fiftyspawner/uranium,
-/obj/fiftyspawner/uranium,
 /obj/fiftyspawner/uranium,
 /turf/simulated/floor/plating,
 /area/muriki/rooftop/secgen)
@@ -10602,6 +10570,29 @@
 	},
 /turf/simulated/floor/carpet/blucarpet/turfpack/muriki,
 /area/specialty/expie_clubhouse)
+"awn" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/tiled/white,
+/area/rnd/hallway/phoronicsbridge)
+"awo" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white,
+/area/rnd/hallway/phoronicsbridge)
+"awp" = (
+/obj/effect/floor_decal/industrial/warning/dust/tile,
+/turf/simulated/mineral/floor/turfpack/muriki{
+	ignore_mapgen = 1
+	},
+/area/rnd/research/phoronics/bombrange)
 "awt" = (
 /obj/structure/sign/warning/acid{
 	pixel_y = 32
@@ -11005,8 +10996,6 @@
 	dir = 5
 	},
 /obj/structure/table/standard,
-/obj/item/hand_labeler,
-/obj/item/hand_labeler,
 /turf/simulated/floor/tiled/white,
 /area/rnd/research/phoronics/burn)
 "aFC" = (
@@ -11259,8 +11248,6 @@
 	dir = 5
 	},
 /obj/structure/table/standard,
-/obj/item/cargo_scanner,
-/obj/item/cargo_scanner,
 /turf/simulated/floor/tiled/white,
 /area/rnd/research/phoronics/burn)
 "aMO" = (
@@ -11393,7 +11380,6 @@
 /obj/effect/floor_decal/corner/purple{
 	dir = 10
 	},
-/obj/machinery/portable_atmospherics/canister/carbon_dioxide,
 /obj/structure/cable/green{
 	icon_state = "1-8"
 	},
@@ -11821,7 +11807,6 @@
 /area/quartermaster/cargupbreak)
 "bcu" = (
 /obj/structure/table/standard,
-/obj/item/storage/box/donkpockets/spicy,
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
 	},
@@ -11983,9 +11968,6 @@
 /obj/structure/cable/green{
 	icon_state = "0-8"
 	},
-/obj/machinery/power/port_gen/pacman/super{
-	anchored = 1
-	},
 /turf/simulated/floor,
 /area/maintenance/substation/phoronics)
 "bgL" = (
@@ -12136,9 +12118,6 @@
 /turf/simulated/floor/tiled,
 /area/quartermaster/cargupbreak)
 "blC" = (
-/obj/machinery/atmospherics/pipe/simple/visible/purple{
-	dir = 5
-	},
 /obj/effect/floor_decal/industrial/warning,
 /obj/effect/floor_decal/industrial/warning/color{
 	color = "#00B8B2"
@@ -12879,7 +12858,6 @@
 /obj/effect/floor_decal/corner/purple{
 	dir = 10
 	},
-/obj/machinery/portable_atmospherics/canister,
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
@@ -13442,7 +13420,6 @@
 /obj/structure/sign/nosmoking_1{
 	pixel_y = -32
 	},
-/obj/effect/landmark/holiday_event_spawn,
 /turf/simulated/floor/tiled/white,
 /area/rnd/hallway/phoronicsmainhall)
 "bQW" = (
@@ -13739,7 +13716,6 @@
 	dir = 6
 	},
 /obj/machinery/sparker{
-	id = "phoronics_burn_ignite";
 	name = "Burn Chamber Igniter";
 	pixel_x = -26
 	},
@@ -14402,7 +14378,6 @@
 	name = "Research Call";
 	pixel_y = -30
 	},
-/obj/structure/reagent_dispensers/water_cooler/full,
 /turf/simulated/floor/wood,
 /area/rnd/research/phoronics/breakroom)
 "cnk" = (
@@ -14839,8 +14814,7 @@
 /turf/simulated/floor/wood,
 /area/chapel/chapel_music)
 "cyP" = (
-/obj/machinery/atmospherics/binary/pump{
-	name = "Vent to Station";
+/obj/machinery/atmospherics/binary/pump/on{
 	dir = 4
 	},
 /turf/simulated/floor,
@@ -14910,7 +14884,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
 	},
-/obj/machinery/atmospherics/binary/pump/high_power/on{
+/obj/machinery/atmospherics/binary/pump/high_power{
 	dir = 1;
 	name = "Emergency Exterior Vent"
 	},
@@ -15158,10 +15132,6 @@
 /obj/effect/floor_decal/industrial/warning/corner,
 /turf/simulated/floor/tiled/milspec,
 /area/medical/hangar)
-"cIs" = (
-/obj/machinery/portable_atmospherics/canister/methane,
-/turf/simulated/floor/tiled/techfloor,
-/area/rnd/research/phoronics/gasstore)
 "cIJ" = (
 /obj/effect/landmark/vermin,
 /turf/simulated/floor/plating,
@@ -15871,16 +15841,15 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/obj/machinery/power/apc{
-	dir = 1;
-	name = "north bump";
-	pixel_y = 24
-	},
 /obj/structure/cable/green{
 	icon_state = "0-4"
 	},
 /obj/effect/floor_decal/corner/purple{
 	dir = 5
+	},
+/obj/machinery/power/apc/alarms_hidden{
+	dir = 1;
+	pixel_y = 24
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/rnd/research/phoronics/extrastore)
@@ -16235,6 +16204,7 @@
 /obj/machinery/door/airlock/glass_research{
 	name = "Phoronics Atmos Purge"
 	},
+/obj/item/taperoll/engineering,
 /turf/simulated/floor/tiled/steel_ridged,
 /area/rnd/hallway/upper)
 "dnR" = (
@@ -16672,16 +16642,15 @@
 /obj/effect/floor_decal/corner/purple{
 	dir = 5
 	},
-/obj/machinery/power/apc{
-	dir = 1;
-	name = "north bump";
-	pixel_y = 24
-	},
 /obj/structure/cable/green{
 	icon_state = "0-2"
 	},
 /obj/machinery/light{
 	dir = 1
+	},
+/obj/machinery/power/apc/alarms_hidden{
+	dir = 1;
+	pixel_y = 24
 	},
 /turf/simulated/floor/tiled/white,
 /area/rnd/research/phoronics/clean)
@@ -16804,7 +16773,6 @@
 /turf/simulated/floor/water/indoors/beach,
 /area/hydroponics/publicgarden)
 "dCw" = (
-/obj/structure/dispenser,
 /obj/effect/floor_decal/corner/purple/full{
 	dir = 1
 	},
@@ -17032,10 +17000,9 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
 	},
-/obj/structure/sign/scenery/map/right_outpost21{
-	pixel_y = 32
+/obj/machinery/computer/security/telescreen/entertainment{
+	pixel_y = 28
 	},
-/obj/random/nukies_can_legal,
 /turf/simulated/floor/wood,
 /area/rnd/research/phoronics/breakroom)
 "dJA" = (
@@ -18708,12 +18675,10 @@
 /turf/simulated/floor/tiled/steel,
 /area/rnd/research/phoronics/bombrange)
 "eBh" = (
-/obj/machinery/atmospherics/pipe/manifold/visible/purple,
 /obj/effect/floor_decal/industrial/warning,
 /obj/effect/floor_decal/industrial/warning/color{
 	color = "#00B8B2"
 	},
-/obj/machinery/meter,
 /turf/simulated/floor,
 /area/rnd/hallway/phoronicsmainhall)
 "eBx" = (
@@ -19095,14 +19060,6 @@
 "eKt" = (
 /obj/effect/floor_decal/corner/purple{
 	dir = 10
-	},
-/obj/machinery/computer/general_air_control/large_tank_control{
-	dir = 1;
-	input_tag = "phoronics_burn_in";
-	name = "Burn Chamber Monitor";
-	output_tag = "phoronics_burn_out";
-	sensors = list("phoronic_burn_gas" = "Chamber Sensor");
-	pixel_y = -2
 	},
 /obj/structure/extinguisher_cabinet{
 	pixel_x = 8;
@@ -19788,7 +19745,6 @@
 /turf/simulated/floor/carpet/turcarpet,
 /area/djstation)
 "faS" = (
-/obj/machinery/portable_atmospherics/powered/scrubber,
 /turf/simulated/floor/tiled/steel,
 /area/rnd/research/phoronics/burn)
 "faV" = (
@@ -19821,11 +19777,6 @@
 /obj/effect/floor_decal/corner/purple{
 	dir = 6
 	},
-/obj/structure/table/rack/shelf,
-/obj/item/shovel,
-/obj/item/melee/umbrella/random,
-/obj/item/melee/umbrella/random,
-/obj/item/melee/umbrella/random,
 /obj/machinery/light{
 	dir = 1
 	},
@@ -19995,7 +19946,6 @@
 /obj/effect/floor_decal/corner/purple/full{
 	dir = 4
 	},
-/obj/machinery/portable_atmospherics/canister,
 /obj/machinery/atmospherics/pipe/simple/visible/red,
 /turf/simulated/floor/tiled/white,
 /area/rnd/research/phoronics/burn)
@@ -20350,7 +20300,6 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/machinery/pipedispenser,
 /obj/effect/floor_decal/corner/purple{
 	dir = 10
 	},
@@ -22065,7 +22014,6 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/industrial/outline/red,
-/obj/machinery/portable_atmospherics/canister,
 /obj/structure/disposalpipe/segment{
 	dir = 1;
 	icon_state = "pipe-c"
@@ -22202,7 +22150,6 @@
 "guC" = (
 /obj/machinery/atmospherics/unary/outlet_injector{
 	dir = 1;
-	frequency = 1441;
 	pixel_y = 1;
 	use_power = 1
 	},
@@ -22422,16 +22369,14 @@
 /area/rnd/research/phoronics)
 "gDH" = (
 /obj/structure/table/standard,
-/obj/machinery/microwave,
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
 	},
-/obj/structure/extinguisher_cabinet{
-	pixel_x = -5;
-	pixel_y = 30
-	},
 /obj/machinery/light{
 	dir = 1
+	},
+/obj/structure/sign/scenery/map/right_outpost21{
+	pixel_y = 32
 	},
 /turf/simulated/floor/wood,
 /area/rnd/research/phoronics/breakroom)
@@ -22824,12 +22769,6 @@
 	dir = 1
 	},
 /area/muriki/processor/hall)
-"gQL" = (
-/obj/machinery/atmospherics/binary/pump{
-	dir = 1
-	},
-/turf/simulated/floor,
-/area/rnd/hallway/phoronicsmainhall)
 "gRv" = (
 /obj/machinery/meter,
 /obj/machinery/atmospherics/pipe/manifold/visible{
@@ -23192,11 +23131,6 @@
 "gYN" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
-	},
-/obj/machinery/computer/security/xenobio{
-	dir = 1;
-	pixel_y = -2;
-	name = "Camera monitor"
 	},
 /obj/machinery/light,
 /obj/effect/floor_decal/corner/purple{
@@ -23814,9 +23748,6 @@
 /obj/effect/floor_decal/spline/fancy/wood,
 /obj/structure/disposalpipe/segment{
 	dir = 4
-	},
-/obj/structure/fireaxecabinet{
-	pixel_y = -32
 	},
 /obj/structure/closet/firecloset/full,
 /turf/simulated/floor/wood,
@@ -24528,7 +24459,6 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/obj/machinery/atmospherics/portables_connector,
 /turf/simulated/floor,
 /area/rnd/hallway/phoronicsmainhall)
 "hKz" = (
@@ -24696,7 +24626,6 @@
 	name = "Research Call";
 	pixel_y = -30
 	},
-/obj/machinery/portable_atmospherics/canister/carbon_dioxide,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
@@ -24755,7 +24684,6 @@
 /obj/effect/floor_decal/corner/purple{
 	dir = 5
 	},
-/obj/structure/closet/bombcloset/double,
 /turf/simulated/floor/tiled/white,
 /area/rnd/research/phoronics)
 "hPZ" = (
@@ -24820,13 +24748,12 @@
 /obj/machinery/newscaster{
 	pixel_x = -32
 	},
-/obj/machinery/power/apc{
-	dir = 1;
-	name = "north bump";
-	pixel_y = 24
-	},
 /obj/structure/cable/green{
 	icon_state = "0-2"
+	},
+/obj/machinery/power/apc/alarms_hidden{
+	dir = 1;
+	pixel_y = 24
 	},
 /turf/simulated/floor/wood,
 /area/rnd/research/phoronics/breakroom)
@@ -25830,11 +25757,6 @@
 /turf/simulated/floor/water/acidic/indoor/turfpack/muriki,
 /area/muriki/processor/hall/waterway_other)
 "ivh" = (
-/obj/machinery/power/apc{
-	dir = 4;
-	name = "east bump";
-	pixel_x = 24
-	},
 /obj/structure/cable/green{
 	icon_state = "0-8"
 	},
@@ -25842,10 +25764,11 @@
 	dir = 6
 	},
 /obj/structure/table/standard,
-/obj/item/tool/wrench/pipe,
-/obj/item/analyzer,
 /obj/machinery/atmospherics/pipe/simple/visible/red,
-/obj/item/tool/screwdriver,
+/obj/machinery/power/apc/alarms_hidden{
+	dir = 4;
+	pixel_x = 24
+	},
 /turf/simulated/floor/tiled/white,
 /area/rnd/research/phoronics/burn)
 "ivn" = (
@@ -25915,7 +25838,6 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/muriki/rooftop/secgen)
 "izc" = (
-/obj/machinery/portable_atmospherics/canister/oxygen,
 /obj/effect/floor_decal/corner/purple{
 	dir = 10
 	},
@@ -26049,8 +25971,6 @@
 	dir = 10
 	},
 /obj/machinery/button/ignition{
-	id = "phoronics_burn_ignite";
-	name = "Burn Chamber Ignition";
 	pixel_x = 9;
 	pixel_y = -38
 	},
@@ -26273,7 +26193,6 @@
 	dir = 1;
 	pixel_y = -26
 	},
-/obj/effect/landmark/holiday_event_spawn,
 /turf/simulated/floor/wood,
 /area/rnd/research/phoronics/breakroom)
 "iGm" = (
@@ -26937,7 +26856,6 @@
 	dir = 8
 	},
 /obj/machinery/sparker{
-	id = "phoronics_burn_ignite";
 	name = "Burn Chamber Igniter";
 	pixel_x = 28
 	},
@@ -27091,6 +27009,7 @@
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
+/obj/item/taperoll/engineering,
 /turf/simulated/floor/tiled/steel_ridged,
 /area/rnd/misc_lab)
 "jbi" = (
@@ -27245,14 +27164,14 @@
 	},
 /area/chapel/main)
 "jeN" = (
-/obj/machinery/power/smes/buildable{
-	RCon_tag = "Substation - Phoronics"
-	},
 /obj/structure/cable/green{
 	icon_state = "0-8"
 	},
 /obj/structure/cable/green{
 	icon_state = "0-4"
+	},
+/obj/machinery/power/smes/buildable/disable_output{
+	RCon_tag = "Substation - Old Phoronics"
 	},
 /turf/simulated/floor,
 /area/maintenance/substation/phoronics)
@@ -27384,7 +27303,6 @@
 /area/hallway/secondary/engineering_hallway)
 "jjq" = (
 /obj/machinery/door/airlock/maintenance/rnd,
-/obj/item/airlock_brace,
 /turf/simulated/floor,
 /area/maintenance/substation/phoronics)
 "jjF" = (
@@ -27526,13 +27444,6 @@
 	},
 /turf/simulated/floor/wood,
 /area/crew_quarters/medbreak)
-"jmg" = (
-/obj/machinery/portable_atmospherics/canister/phoron,
-/obj/effect/floor_decal/corner/purple{
-	dir = 9
-	},
-/turf/simulated/floor/tiled/techfloor,
-/area/rnd/research/phoronics/gasstore)
 "jml" = (
 /obj/machinery/hologram/holopad,
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -27802,8 +27713,7 @@
 /area/maintenance/gravgen)
 "juj" = (
 /obj/machinery/air_sensor{
-	frequency = 1441;
-	id_tag = "phoronic_burn_gas"
+	frequency = 1441
 	},
 /turf/simulated/floor/reinforced/airless,
 /area/rnd/research/phoronics/burn)
@@ -27874,7 +27784,6 @@
 /obj/machinery/camera/network/research_outpost{
 	c_tag = "TOX - Phoronics Cleaning Room"
 	},
-/obj/machinery/floodlight,
 /obj/structure/extinguisher_cabinet{
 	pixel_x = 7;
 	pixel_y = 30
@@ -28367,11 +28276,6 @@
 /obj/effect/floor_decal/corner/purple/full{
 	dir = 8
 	},
-/obj/machinery/power/apc{
-	dir = 1;
-	name = "north bump";
-	pixel_y = 24
-	},
 /obj/structure/cable/green{
 	icon_state = "0-2"
 	},
@@ -28382,7 +28286,10 @@
 	dir = 8;
 	pixel_x = -26
 	},
-/obj/effect/landmark/holiday_event_spawn,
+/obj/machinery/power/apc/alarms_hidden{
+	dir = 1;
+	pixel_y = 24
+	},
 /turf/simulated/floor/tiled/white,
 /area/rnd/research/phoronics)
 "jKn" = (
@@ -30604,7 +30511,6 @@
 /obj/effect/floor_decal/corner/purple{
 	dir = 9
 	},
-/obj/machinery/portable_atmospherics/canister/phoron,
 /turf/simulated/floor/tiled/techfloor,
 /area/rnd/research/phoronics/gasstore)
 "kNy" = (
@@ -31029,10 +30935,6 @@
 /obj/effect/floor_decal/corner/purple,
 /obj/structure/table/standard,
 /obj/machinery/atmospherics/pipe/simple/visible/red,
-/obj/item/sticky_pad/random{
-	pixel_x = 6;
-	pixel_y = 9
-	},
 /turf/simulated/floor/tiled/white,
 /area/rnd/research/phoronics/burn)
 "lcI" = (
@@ -31203,9 +31105,7 @@
 /area/medical/hangar)
 "liN" = (
 /obj/machinery/atmospherics/unary/outlet_injector{
-	dir = 1;
-	frequency = 1441;
-	id = "phoronics_burn_in"
+	dir = 1
 	},
 /turf/simulated/floor/reinforced/airless,
 /area/rnd/research/phoronics/burn)
@@ -31311,10 +31211,6 @@
 	pixel_x = 26
 	},
 /obj/structure/table/rack/shelf/steel,
-/obj/fiftyspawner/glass,
-/obj/fiftyspawner/glass,
-/obj/fiftyspawner/steel,
-/obj/fiftyspawner/steel,
 /turf/simulated/floor/tiled/white,
 /area/rnd/misc_lab)
 "lkF" = (
@@ -31532,7 +31428,6 @@
 /turf/simulated/floor/tiled,
 /area/security/range)
 "lqH" = (
-/obj/machinery/portable_atmospherics/canister/methane,
 /obj/machinery/light{
 	dir = 1
 	},
@@ -31638,14 +31533,13 @@
 /turf/simulated/floor/tiled/white,
 /area/rnd/hallway/upper)
 "ltJ" = (
-/obj/machinery/power/apc{
-	name = "south bump";
-	pixel_y = -24
-	},
 /obj/structure/cable/green{
 	icon_state = "0-4"
 	},
 /obj/effect/floor_decal/corner/purple/full,
+/obj/machinery/power/apc/alarms_hidden{
+	pixel_y = -24
+	},
 /turf/simulated/floor/tiled/steel,
 /area/rnd/research/phoronics/bombrange)
 "lus" = (
@@ -31874,9 +31768,6 @@
 /obj/effect/floor_decal/corner/purple/full{
 	dir = 4
 	},
-/obj/structure/mopbucket,
-/obj/item/mop,
-/obj/item/reagent_containers/glass/bucket,
 /obj/structure/sign/nosmoking_1{
 	pixel_y = -32
 	},
@@ -32228,16 +32119,16 @@
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
+/obj/structure/cable/green{
+	icon_state = "1-8"
+	},
+/obj/structure/cable/green{
+	icon_state = "1-4"
+	},
 /obj/machinery/door/airlock/glass_research{
 	name = "Phoronics";
 	req_access = list(8);
 	req_one_access = list(8,47,52)
-	},
-/obj/structure/cable/green{
-	icon_state = "2-8"
-	},
-/obj/structure/cable/green{
-	icon_state = "2-4"
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/rnd/research/phoronics)
@@ -32573,7 +32464,6 @@
 /obj/effect/floor_decal/corner/purple/full{
 	dir = 1
 	},
-/obj/structure/closet/bombcloset/double,
 /obj/machinery/light{
 	dir = 4
 	},
@@ -33079,7 +32969,6 @@
 /turf/simulated/wall/titanium,
 /area/muriki/elevator/secupper)
 "mlI" = (
-/obj/machinery/atmospherics/unary/freezer,
 /obj/item/radio/intercom{
 	dir = 1;
 	name = "Common Channel";
@@ -33238,8 +33127,6 @@
 /area/library)
 "moV" = (
 /obj/structure/table/rack,
-/obj/fiftyspawner/uranium,
-/obj/fiftyspawner/uranium,
 /turf/simulated/floor,
 /area/maintenance/substation/phoronics)
 "mpg" = (
@@ -33678,9 +33565,7 @@
 /area/security/range)
 "mBF" = (
 /obj/machinery/atmospherics/unary/vent_pump/siphon/on{
-	dir = 1;
-	frequency = 1441;
-	id_tag = "phoronics_burn_out"
+	dir = 1
 	},
 /turf/simulated/floor/reinforced/airless,
 /area/rnd/research/phoronics/burn)
@@ -34288,10 +34173,6 @@
 /turf/simulated/floor/tiled/white,
 /area/medical/patient_wing)
 "mQs" = (
-/obj/machinery/vending/coffee{
-	dir = 8;
-	pixel_x = 7
-	},
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
 	},
@@ -34431,7 +34312,6 @@
 /turf/simulated/floor/tiled/monotile,
 /area/hydroponics/publicgarden)
 "mUL" = (
-/obj/machinery/portable_atmospherics/canister,
 /obj/item/geiger/wall/south,
 /turf/simulated/floor/tiled/steel,
 /area/rnd/research/phoronics/burn)
@@ -34684,12 +34564,9 @@
 "naM" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/structure/cable/green{
-	icon_state = "1-2"
-	},
 /obj/effect/catwalk_plated/white,
 /obj/structure/cable/green{
-	icon_state = "1-4"
+	icon_state = "2-4"
 	},
 /turf/simulated/floor,
 /area/rnd/hallway/phoronicsbridge)
@@ -35024,14 +34901,6 @@
 /obj/effect/floor_decal/eshui/emblem/eshui_small_r,
 /turf/simulated/floor/tiled/white,
 /area/medical/resleeving)
-"nkG" = (
-/obj/effect/floor_decal/industrial/warning,
-/obj/effect/floor_decal/industrial/warning/color{
-	color = "#00B8B2"
-	},
-/obj/machinery/atmospherics/pipe/manifold/visible/purple,
-/turf/simulated/floor,
-/area/rnd/hallway/phoronicsmainhall)
 "nkQ" = (
 /turf/simulated/floor/tiled/old_tile,
 /area/rnd/hallway/phoronicsmainhall)
@@ -35243,7 +35112,6 @@
 /area/medical/hangar)
 "npP" = (
 /obj/effect/floor_decal/corner/purple/full,
-/obj/item/lightreplacer,
 /obj/structure/table/standard,
 /obj/machinery/doorbell_chime{
 	id_tag = "sciding";
@@ -35366,8 +35234,7 @@
 	name = "Powernet Sensor - Phoronics Subgrid";
 	name_tag = "Phoronics Subgrid"
 	},
-/obj/machinery/power/apc{
-	name = "south bump";
+/obj/machinery/power/apc/alarms_hidden{
 	pixel_y = -24
 	},
 /turf/simulated/floor,
@@ -36186,9 +36053,6 @@
 /area/library)
 "nSv" = (
 /obj/structure/table/standard,
-/obj/item/stack/medical/splint,
-/obj/item/stack/medical/splint,
-/obj/item/stack/medical/splint,
 /obj/machinery/alarm{
 	pixel_y = 26
 	},
@@ -36438,10 +36302,6 @@
 /turf/simulated/floor/grass,
 /area/hydroponics/garden)
 "nZB" = (
-/obj/machinery/vending/foodfast{
-	dir = 8;
-	pixel_x = 7
-	},
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 5
 	},
@@ -37080,6 +36940,7 @@
 /area/library_conference_room)
 "otU" = (
 /obj/machinery/hologram/holopad,
+/mob/living/simple_mob/vore/alienanimals/jil,
 /turf/simulated/floor/tiled/white,
 /area/rnd/research/phoronics/clean)
 "oue" = (
@@ -37238,8 +37099,8 @@
 /turf/simulated/wall/durasteel,
 /area/rnd/supermatter)
 "oxh" = (
-/obj/machinery/power/breakerbox/activated{
-	RCon_tag = "Phoronics Substation Bypass";
+/obj/machinery/power/breakerbox{
+	RCon_tag = "Old Phoronics Substation Bypass";
 	name = "Phoronics Breaker Box"
 	},
 /turf/simulated/floor,
@@ -38314,10 +38175,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/rnd/research/medical_roof)
-"oXH" = (
-/obj/machinery/floor_light/prebuilt,
-/turf/simulated/floor/tiled/steel,
-/area/rnd/research/phoronics/bombrange)
 "oYd" = (
 /obj/structure/table/woodentable,
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -38399,9 +38256,6 @@
 "oZp" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/structure/cable/green{
-	icon_state = "1-2"
-	},
 /obj/effect/landmark/event_spawn/dronepod_landing,
 /obj/effect/floor_decal/eshui/emblem/eshui_c,
 /turf/simulated/floor/tiled/white,
@@ -38707,7 +38561,6 @@
 /turf/simulated/floor/tiled/white,
 /area/rnd/misc_lab)
 "phL" = (
-/obj/machinery/portable_atmospherics/canister/oxygen,
 /obj/effect/floor_decal/corner/purple{
 	dir = 6
 	},
@@ -38980,7 +38833,6 @@
 /obj/effect/floor_decal/corner/purple{
 	dir = 5
 	},
-/obj/machinery/vending/phoronresearch,
 /turf/simulated/floor/tiled/steel,
 /area/rnd/research/phoronics/bombrange)
 "pqx" = (
@@ -39198,7 +39050,6 @@
 	dir = 5
 	},
 /obj/structure/table/standard,
-/obj/machinery/bomb_tester,
 /turf/simulated/floor/tiled/steel,
 /area/rnd/research/phoronics/bombrange)
 "puQ" = (
@@ -39412,7 +39263,6 @@
 /turf/simulated/floor/plating,
 /area/medical/patient_a)
 "pBb" = (
-/obj/structure/reagent_dispensers/foam,
 /obj/effect/floor_decal/corner/purple/full{
 	dir = 4
 	},
@@ -39710,9 +39560,6 @@
 "pHA" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/structure/cable/green{
-	icon_state = "1-2"
-	},
 /obj/machinery/hologram/holopad,
 /turf/simulated/floor/tiled/white,
 /area/rnd/hallway/phoronicsbridge)
@@ -40221,7 +40068,6 @@
 	pixel_x = 7;
 	pixel_y = 30
 	},
-/obj/machinery/portable_atmospherics/powered/pump/filled,
 /obj/effect/floor_decal/corner/purple{
 	dir = 5
 	},
@@ -40738,7 +40584,6 @@
 /turf/simulated/floor/wood,
 /area/library_conference_room)
 "qnf" = (
-/obj/machinery/portable_atmospherics/canister/phoron,
 /obj/machinery/light{
 	dir = 1
 	},
@@ -40984,7 +40829,6 @@
 /turf/simulated/floor,
 /area/maintenance/roof_tube_access)
 "qve" = (
-/obj/machinery/portable_atmospherics/canister/phoron,
 /obj/effect/floor_decal/corner/purple{
 	dir = 5
 	},
@@ -42155,7 +41999,6 @@
 /obj/effect/floor_decal/corner/purple{
 	dir = 5
 	},
-/obj/machinery/vending/phoronresearch,
 /obj/machinery/atmospherics/pipe/simple/visible/red{
 	dir = 4
 	},
@@ -42334,8 +42177,8 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
 	},
-/obj/structure/sign/scenery/map/left_outpost21{
-	pixel_y = 32
+/obj/machinery/alarm{
+	pixel_y = 26
 	},
 /turf/simulated/floor/wood,
 /area/rnd/research/phoronics/breakroom)
@@ -42609,10 +42452,6 @@
 	dir = 9
 	},
 /obj/structure/table/standard,
-/obj/item/storage/briefcase/inflatable{
-	pixel_y = 3
-	},
-/obj/item/tool/wrench/pipe,
 /turf/simulated/floor/tiled/white,
 /area/rnd/research/phoronics/clean)
 "rjD" = (
@@ -42768,9 +42607,6 @@
 	},
 /area/muriki/rooftop/civilian)
 "rnS" = (
-/obj/effect/auto_crayon{
-	icon_state = "nine_removal"
-	},
 /turf/simulated/mineral/floor/turfpack/muriki{
 	ignore_mapgen = 1;
 	outdoors = 1
@@ -43281,9 +43117,6 @@
 /obj/machinery/atmospherics/pipe/simple/visible/red{
 	dir = 4
 	},
-/obj/structure/filingcabinet{
-	pixel_x = -10
-	},
 /turf/simulated/floor/tiled/white,
 /area/rnd/research/phoronics/burn)
 "rDa" = (
@@ -43329,10 +43162,6 @@
 	},
 /turf/simulated/open,
 /area/muriki/tramstation/cargeng)
-"rED" = (
-/obj/machinery/portable_atmospherics/canister/oxygen,
-/turf/simulated/floor/tiled/techfloor,
-/area/rnd/research/phoronics/gasstore)
 "rEM" = (
 /turf/simulated/wall/r_wall,
 /area/teleporter/engineering)
@@ -43500,19 +43329,23 @@
 /turf/simulated/floor/plating,
 /area/maintenance/medicelev)
 "rKQ" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/door/firedoor/glass,
+/obj/item/taperoll/engineering,
+/obj/structure/cable/green{
+	icon_state = "2-4"
+	},
+/obj/structure/cable/green{
+	icon_state = "2-8"
+	},
+/obj/structure/cable/green{
+	icon_state = "1-2"
+	},
 /obj/machinery/door/airlock/glass_research{
 	name = "Phoronics";
 	req_access = list(8);
 	req_one_access = list(8,47,52)
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/door/firedoor/glass,
-/obj/structure/cable/green{
-	icon_state = "1-4"
-	},
-/obj/structure/cable/green{
-	icon_state = "1-8"
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/rnd/hallway/phoronicsbridge)
@@ -43525,6 +43358,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/cable/green{
 	icon_state = "2-4"
+	},
+/obj/structure/cable/green{
+	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/white,
 /area/rnd/hallway/upper)
@@ -44364,16 +44200,6 @@
 /area/muriki/rooftop/security)
 "she" = (
 /obj/structure/table/standard,
-/obj/item/storage/firstaid/regular{
-	pixel_x = 4;
-	pixel_y = 6
-	},
-/obj/item/storage/firstaid/adv{
-	pixel_y = 3
-	},
-/obj/item/storage/firstaid/fire{
-	pixel_x = -2
-	},
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
@@ -44437,9 +44263,6 @@
 	},
 /area/chapel/main)
 "siE" = (
-/obj/machinery/atmospherics/pipe/simple/visible/purple{
-	dir = 9
-	},
 /obj/effect/floor_decal/industrial/warning,
 /obj/effect/floor_decal/industrial/warning/color{
 	color = "#00B8B2"
@@ -45480,10 +45303,6 @@
 	icon_state = "rock_grey"
 	},
 /area/muriki/crystal)
-"sLk" = (
-/obj/machinery/portable_atmospherics/canister/phoron,
-/turf/simulated/floor/tiled/techfloor,
-/area/rnd/research/phoronics/gasstore)
 "sLs" = (
 /obj/effect/floor_decal/corner/brown{
 	dir = 6
@@ -45697,8 +45516,8 @@
 /obj/machinery/camera/network/research_outpost{
 	c_tag = "TOX - Phoronics Break Room"
 	},
-/obj/machinery/alarm{
-	pixel_y = 26
+/obj/structure/sign/scenery/map/left_outpost21{
+	pixel_y = 32
 	},
 /turf/simulated/floor/wood,
 /area/rnd/research/phoronics/breakroom)
@@ -46488,7 +46307,7 @@
 	dir = 4
 	},
 /obj/structure/cable/green{
-	icon_state = "1-4"
+	icon_state = "2-4"
 	},
 /turf/simulated/floor/tiled/white,
 /area/rnd/hallway/phoronicsbridge)
@@ -47043,7 +46862,6 @@
 /turf/simulated/floor/tiled,
 /area/hallway/security/upper)
 "tyf" = (
-/obj/machinery/portable_atmospherics/canister/methane,
 /obj/effect/floor_decal/corner/purple{
 	dir = 6
 	},
@@ -47687,7 +47505,6 @@
 /turf/simulated/wall,
 /area/maintenance/cargoupper)
 "tPq" = (
-/obj/structure/dispenser,
 /obj/effect/floor_decal/corner/purple{
 	dir = 6
 	},
@@ -47783,10 +47600,6 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/rnd/hallway/phoronicsbridge)
 "tSG" = (
-/obj/machinery/power/apc{
-	name = "south bump";
-	pixel_y = -24
-	},
 /obj/structure/cable/green{
 	icon_state = "0-8"
 	},
@@ -47798,6 +47611,9 @@
 	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
+	},
+/obj/machinery/power/apc/alarms_hidden{
+	pixel_y = -24
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/rnd/research/phoronics/gasstore)
@@ -47934,9 +47750,6 @@
 /area/muriki/crystal)
 "tVY" = (
 /obj/structure/table/rack,
-/obj/fiftyspawner/uranium,
-/obj/fiftyspawner/uranium,
-/obj/fiftyspawner/uranium,
 /obj/fiftyspawner/uranium,
 /turf/simulated/floor/plating,
 /area/muriki/rooftop/secgen)
@@ -48211,7 +48024,6 @@
 /obj/effect/floor_decal/corner/purple{
 	dir = 5
 	},
-/obj/machinery/vending/phoronresearch,
 /turf/simulated/floor/tiled/techfloor,
 /area/rnd/research/phoronics/gasstore)
 "ubH" = (
@@ -48482,14 +48294,12 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/library)
 "uhT" = (
-/obj/structure/closet/bombcloset/double,
 /obj/effect/floor_decal/corner/purple/full{
 	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/simple/visible/red{
 	dir = 10
 	},
-/mob/living/simple_mob/vore/alienanimals/jil,
 /turf/simulated/floor/tiled/white,
 /area/rnd/research/phoronics/burn)
 "uil" = (
@@ -49358,15 +49168,14 @@
 /turf/simulated/floor/wood,
 /area/library)
 "uFy" = (
-/obj/machinery/power/apc{
-	dir = 1;
-	name = "north bump";
-	pixel_y = 24
-	},
 /obj/structure/cable/green{
 	icon_state = "0-2"
 	},
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
+/obj/machinery/power/apc/alarms_hidden{
+	dir = 1;
+	pixel_y = 24
+	},
 /turf/simulated/floor/tiled/kafel_full,
 /area/muriki/bathroom/phoronics)
 "uFM" = (
@@ -50141,9 +49950,6 @@
 	dir = 4;
 	pixel_x = -30
 	},
-/obj/structure/closet/secure_closet{
-	req_one_access = list(7,47)
-	},
 /turf/simulated/floor/tiled/white,
 /area/rnd/research/phoronics)
 "uYM" = (
@@ -50689,16 +50495,17 @@
 /area/tcommsat/computer)
 "vnB" = (
 /obj/structure/disposalpipe/segment,
-/obj/machinery/power/apc{
-	dir = 4;
-	name = "east bump";
-	pixel_x = 24
-	},
 /obj/structure/cable/green{
 	icon_state = "0-8"
 	},
 /obj/effect/floor_decal/corner/purple/full{
 	dir = 4
+	},
+/obj/machinery/power/apc{
+	dir = 4;
+	name = "east bump";
+	pixel_x = 24;
+	nightshift_setting = 3
 	},
 /turf/simulated/floor/tiled/white,
 /area/rnd/hallway/phoronicsbridge)
@@ -51241,7 +51048,6 @@
 /turf/simulated/floor/wood,
 /area/rnd/rdoffice)
 "vBm" = (
-/obj/machinery/portable_atmospherics/canister/oxygen,
 /obj/effect/floor_decal/corner/purple/full{
 	dir = 4
 	},
@@ -51294,9 +51100,6 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/visible/red{
 	dir = 6
-	},
-/obj/structure/closet/secure_closet{
-	req_one_access = list(7,47)
 	},
 /turf/simulated/floor/tiled/white,
 /area/rnd/research/phoronics/burn)
@@ -52229,7 +52032,6 @@
 /turf/simulated/floor/plating,
 /area/muriki/rooftop/secgen)
 "wbT" = (
-/obj/machinery/atmospherics/binary/pump,
 /turf/simulated/floor,
 /area/rnd/hallway/phoronicsmainhall)
 "wci" = (
@@ -52869,10 +52671,6 @@
 	outdoors = 0
 	},
 /area/muriki/rooftop/cargo)
-"wwr" = (
-/obj/effect/landmark/holiday_event_spawn,
-/turf/simulated/floor/tiled/steel,
-/area/rnd/research/phoronics/burn)
 "wwz" = (
 /obj/machinery/portable_atmospherics/canister/phoron,
 /obj/effect/floor_decal/corner/blue/full,
@@ -53101,7 +52899,6 @@
 	icon_state = "pipe-c"
 	},
 /obj/structure/table/standard,
-/obj/machinery/bomb_tester,
 /turf/simulated/floor/tiled/white,
 /area/rnd/research/phoronics/clean)
 "wFP" = (
@@ -54207,12 +54004,6 @@
 /obj/structure/table/standard,
 /turf/simulated/floor/tiled/kafel_full,
 /area/muriki/bathroom/phoronics)
-"xfW" = (
-/obj/structure/railing,
-/turf/simulated/floor/plating/external/turfpack/muriki{
-	outdoors = 0
-	},
-/area/mine/unexplored/muriki/mountaintopnorth)
 "xgc" = (
 /obj/structure/table/reinforced,
 /obj/structure/cable/green{
@@ -54834,7 +54625,6 @@
 	pixel_x = -5;
 	pixel_y = 30
 	},
-/obj/machinery/atmospherics/unary/freezer,
 /turf/simulated/floor,
 /area/rnd/hallway/phoronicsmainhall)
 "xym" = (
@@ -54905,10 +54695,10 @@
 /turf/simulated/floor/tiled/steel_ridged,
 /area/crew_quarters/heads/chief)
 "xAq" = (
-/obj/machinery/atmospherics/tvalve/digital/mirrored/bypass{
+/obj/effect/landmark/redspaceexit,
+/obj/machinery/atmospherics/tvalve/digital/mirrored{
 	dir = 4
 	},
-/obj/effect/landmark/redspaceexit,
 /turf/simulated/floor,
 /area/rnd/misc_lab)
 "xAW" = (
@@ -54938,9 +54728,6 @@
 "xCO" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/structure/cable/green{
-	icon_state = "1-2"
-	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/door/blast/regular{
 	density = 0;
@@ -55292,13 +55079,6 @@
 	},
 /turf/simulated/floor/wood,
 /area/crew_quarters/medbreak)
-"xJB" = (
-/obj/machinery/portable_atmospherics/canister/methane,
-/obj/effect/floor_decal/corner/purple{
-	dir = 5
-	},
-/turf/simulated/floor/tiled/techfloor,
-/area/rnd/research/phoronics/gasstore)
 "xJG" = (
 /turf/simulated/wall/r_wall,
 /area/crew_quarters/heads/cmo)
@@ -55431,13 +55211,6 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/structure/table/standard,
-/obj/item/storage/box/cups{
-	pixel_x = -5
-	},
-/obj/item/storage/box/cups{
-	pixel_x = -5
-	},
 /turf/simulated/floor/wood,
 /area/rnd/research/phoronics/breakroom)
 "xNN" = (
@@ -55487,10 +55260,6 @@
 	},
 /turf/simulated/open,
 /area/hydroponics/hallway)
-"xPz" = (
-/obj/machinery/atmospherics/pipe/simple/visible/purple,
-/turf/simulated/floor,
-/area/rnd/hallway/phoronicsmainhall)
 "xPT" = (
 /obj/structure/railing,
 /turf/simulated/floor/outpost_roof/turfpack/muriki,
@@ -55706,10 +55475,6 @@
 /obj/effect/floor_decal/corner/purple{
 	dir = 5
 	},
-/obj/machinery/autolathe,
-/obj/fiftyspawner/steel,
-/obj/fiftyspawner/steel,
-/obj/fiftyspawner/glass,
 /turf/simulated/floor/tiled/techfloor,
 /area/rnd/research/phoronics/extrastore)
 "xVD" = (
@@ -55881,9 +55646,6 @@
 	dir = 1
 	},
 /obj/effect/floor_decal/industrial/outline/cut_corners/yellow,
-/obj/structure/closet/secure_closet{
-	req_one_access = list(7,47)
-	},
 /turf/simulated/floor/tiled/steel,
 /area/rnd/research/phoronics/bombrange)
 "yeB" = (
@@ -56112,24 +55874,12 @@
 /area/tcommsat/computer)
 "ylw" = (
 /obj/structure/table/standard,
-/obj/item/storage/firstaid/regular{
-	pixel_x = 4;
-	pixel_y = 6
-	},
-/obj/item/storage/firstaid/toxin{
-	pixel_y = 3
-	},
-/obj/item/storage/firstaid/o2{
-	pixel_x = -2
-	},
-/obj/machinery/power/apc{
-	dir = 4;
-	name = "east bump";
-	pixel_x = 24;
-	nightshift_setting = 2
-	},
 /obj/structure/cable/green{
 	icon_state = "0-8"
+	},
+/obj/machinery/power/apc/alarms_hidden{
+	dir = 4;
+	pixel_x = 24
 	},
 /turf/simulated/floor/tiled/white,
 /area/rnd/research/phoronics/med)
@@ -99731,10 +99481,10 @@ ovc
 ovc
 ovc
 ovc
-smI
-ovc
-ovc
-ovc
+awp
+awp
+uSv
+uSv
 ovc
 ovc
 ovc
@@ -99894,9 +99644,9 @@ ovc
 ovc
 ovc
 smI
-ovc
-ovc
-ovc
+aFx
+aFx
+uSv
 ovc
 ovc
 ovc
@@ -100058,7 +99808,7 @@ tRP
 aab
 tRP
 tRP
-ovc
+uSv
 ovc
 ovc
 ovc
@@ -100220,8 +99970,8 @@ noN
 jUL
 ltk
 tRP
-ovc
-ovc
+uSv
+uSv
 ovc
 ovc
 ovc
@@ -100382,8 +100132,8 @@ tRP
 jmU
 tRP
 tRP
-ovc
-ovc
+aFx
+uSv
 ovc
 ovc
 ovc
@@ -100545,7 +100295,7 @@ hiG
 gCY
 tRP
 tRP
-ovc
+uSv
 ovc
 ovc
 ovc
@@ -100707,7 +100457,7 @@ kKk
 ncB
 ltJ
 tRP
-ovc
+uSv
 ovc
 ovc
 ovc
@@ -100865,11 +100615,11 @@ ovc
 tRP
 jrn
 bvn
-oXH
+bvn
 bvn
 kAA
 tRP
-ovc
+uSv
 ovc
 ovc
 ovc
@@ -101031,7 +100781,7 @@ pYn
 bvn
 gYN
 tRP
-ovc
+uSv
 ovc
 ovc
 ovc
@@ -101193,8 +100943,8 @@ alz
 xyy
 jrK
 tRP
-ovc
-ovc
+uSv
+uSv
 ovc
 ovc
 ovc
@@ -101355,9 +101105,9 @@ vOn
 wEP
 sgN
 tRP
-ovc
-ovc
-ovc
+aFx
+uSv
+uSv
 ovc
 ovc
 pXM
@@ -101518,8 +101268,8 @@ yjJ
 tRP
 tRP
 tRP
-ovc
-ovc
+aFx
+uSv
 ovc
 ovc
 pXM
@@ -101681,7 +101431,7 @@ tRP
 fbU
 tRP
 tRP
-ovc
+uSv
 ovc
 ovc
 pXM
@@ -101843,10 +101593,10 @@ awX
 awX
 mLh
 aiL
+aiL
 aiK
 aiK
 aiK
-xfW
 ovc
 adX
 kxr
@@ -102329,7 +102079,7 @@ qTJ
 nfK
 nfK
 nfK
-wwr
+faS
 mUL
 tSW
 lrB
@@ -102482,7 +102232,7 @@ ovc
 jad
 adA
 vNX
-adw
+adx
 jad
 okg
 vyb
@@ -104911,7 +104661,7 @@ ovc
 ovc
 bzn
 xyc
-xPz
+wbT
 eBh
 jyl
 uKT
@@ -105073,8 +104823,8 @@ ovc
 ovc
 bzn
 mlI
-xPz
-nkG
+wbT
+eBh
 xWv
 hbb
 hfM
@@ -105235,7 +104985,7 @@ ovc
 ovc
 bzn
 hJZ
-gQL
+wbT
 siE
 oFY
 oFY
@@ -106208,7 +105958,7 @@ ovc
 ovc
 eGr
 gDH
-aeU
+fOi
 hFK
 xNc
 bCs
@@ -106382,9 +106132,9 @@ xSf
 xeE
 lLC
 xCO
-aCS
-gJN
-gJN
+awo
+awn
+awn
 oZp
 pHA
 naM
@@ -107346,7 +107096,7 @@ xvT
 exd
 pwK
 qnf
-jmg
+kNw
 kNw
 cOD
 tSG
@@ -107508,7 +107258,7 @@ dSA
 paV
 pwK
 qve
-sLk
+dzY
 piT
 cSz
 aRe
@@ -107831,10 +107581,10 @@ mpu
 fpO
 xfU
 pwK
-xJB
-cIs
+qve
+dzY
 gVd
-rED
+dzY
 izc
 tJj
 ovc
@@ -109611,7 +109361,7 @@ ovc
 ovc
 ovc
 pXM
-ajq
+acn
 pXM
 aaZ
 pXM
