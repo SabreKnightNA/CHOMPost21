@@ -26626,10 +26626,8 @@
 /area/mine/unexplored/muriki/mountaintop_pathway)
 "iPB" = (
 /obj/effect/floor_decal/corner/purple,
-/obj/structure/disposalpipe/sortjunction{
-	dir = 1;
-	name = "Phoronics";
-	sortType = "Captain"
+/obj/structure/disposalpipe/junction{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
 /area/rnd/research/phoronics)
@@ -53326,9 +53324,7 @@
 	dir = 8;
 	pixel_x = 30
 	},
-/obj/machinery/disposal/mail_reciever{
-	name = "disposal mail destination(Phoronics)"
-	},
+/obj/machinery/disposal,
 /turf/simulated/floor/tiled/white,
 /area/rnd/research/phoronics)
 "wPr" = (
