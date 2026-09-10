@@ -2003,6 +2003,20 @@
 /obj/item/material/ashtray/bronze{
 	pixel_y = -2
 	},
+/obj/item/paper/armorystock{
+	pixel_y = -2;
+	area_path = /area/security/armoury;
+	pixel_x = -3
+	},
+/obj/item/paper/armorystock{
+	pixel_y = 1;
+	pixel_x = -1
+	},
+/obj/item/paper/armorystock{
+	pixel_y = 4;
+	area_path = /area/security/tactical/red;
+	pixel_x = 1
+	},
 /turf/simulated/floor/tiled/dark,
 /area/security/warden)
 "acI" = (
@@ -3253,14 +3267,14 @@
 /area/crew_quarters/heads/hop)
 "aey" = (
 /obj/structure/dogbed,
-/obj/machinery/newscaster/security_unit{
-	pixel_x = 32
-	},
 /obj/machinery/camera/network/security{
 	c_tag = "SEC - Head of Security Office";
 	dir = 8
 	},
 /mob/living/simple_mob/animal/passive/snake/python/noodle,
+/obj/machinery/keycard_auth{
+	pixel_x = 26
+	},
 /turf/simulated/floor/carpet,
 /area/crew_quarters/heads/hos)
 "aez" = (
@@ -6296,9 +6310,6 @@
 	},
 /obj/item/folder/white,
 /obj/item/folder/white,
-/obj/structure/cable/green{
-	icon_state = "0-2"
-	},
 /obj/structure/window/reinforced{
 	dir = 1
 	},
@@ -10412,7 +10423,8 @@
 	dir = 9
 	},
 /obj/item/perfect_tele_beacon/stationary{
-	tele_name = "Engineering"
+	tele_name = "Engineering";
+	tele_network = "outpost"
 	},
 /turf/simulated/floor/tiled,
 /area/muriki/tramstation/cargeng)
@@ -11390,10 +11402,6 @@
 /obj/machinery/firealarm{
 	pixel_y = 26
 	},
-/obj/machinery/alarm{
-	dir = 4;
-	pixel_x = -26
-	},
 /obj/structure/table/rack,
 /obj/machinery/door/window/brigdoor/eastright{
 	name = "Ballistics"
@@ -11408,7 +11416,7 @@
 /obj/item/gun/projectile/deagle,
 /obj/effect/floor_decal/corner/red/borderfull,
 /turf/simulated/floor/tiled/milspec/raised,
-/area/security/tactical)
+/area/security/tactical/red)
 "avg" = (
 /obj/effect/floor_decal/flesh{
 	dir = 4
@@ -12072,7 +12080,8 @@
 	icon_state = "4-8"
 	},
 /obj/item/perfect_tele_beacon/stationary{
-	tele_name = "Bar"
+	tele_name = "Bar";
+	tele_network = "outpost"
 	},
 /turf/simulated/floor/tiled/steel,
 /area/hallway/primary/central_two)
@@ -20558,7 +20567,8 @@
 	dir = 1
 	},
 /obj/item/perfect_tele_beacon/stationary{
-	tele_name = "Medical"
+	tele_name = "Medical";
+	tele_network = "outpost"
 	},
 /turf/simulated/floor/tiled/white,
 /area/medical/reception)
@@ -20820,6 +20830,13 @@
 /obj/item/geiger/wall/south,
 /turf/simulated/floor/tiled,
 /area/hallway/secondary/engineering_hallway)
+"aWp" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/cable/green{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/white,
+/area/medical/reception)
 "aWq" = (
 /obj/machinery/light{
 	dir = 4
@@ -20840,6 +20857,12 @@
 	},
 /turf/simulated/floor/tiled/kafel_full,
 /area/muriki/bathroom/kitchen)
+"aWr" = (
+/obj/structure/cable/green{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/white,
+/area/medical/reception)
 "aWs" = (
 /obj/machinery/door/airlock/glass_research{
 	name = "Research and Development"
@@ -20848,6 +20871,31 @@
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/steel_ridged,
 /area/rnd/hallway/main)
+"aWt" = (
+/obj/effect/floor_decal/corner/red{
+	dir = 5
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/sign/department/commander{
+	pixel_y = 32;
+	pixel_x = -4
+	},
+/turf/simulated/floor/tiled,
+/area/hallway/security/main)
+"aWu" = (
+/turf/simulated/wall/r_wall,
+/area/security/tactical/red)
+"aWv" = (
+/obj/structure/cable/orange{
+	icon_state = "4-8"
+	},
+/obj/machinery/light/floortube{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/milspec/raised,
+/area/security/tactical/red)
 "aWw" = (
 /obj/structure/disposalpipe/sortjunction/bodies/flipped,
 /obj/structure/cable/green{
@@ -20858,6 +20906,36 @@
 	},
 /turf/simulated/floor/plating/turfpack/muriki,
 /area/maintenance/cargomid)
+"aWx" = (
+/obj/machinery/light/floortube{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/milspec/raised,
+/area/security/tactical/red)
+"aWy" = (
+/obj/structure/extinguisher_cabinet{
+	pixel_x = -8;
+	pixel_y = 30
+	},
+/obj/structure/extinguisher_cabinet{
+	pixel_x = 7;
+	pixel_y = 30
+	},
+/turf/simulated/floor/tiled/milspec/raised,
+/area/security/tactical/red)
+"aWz" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable/orange{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/milspec/raised,
+/area/security/tactical/red)
+"aWA" = (
+/obj/machinery/alarm{
+	pixel_y = 26
+	},
+/turf/simulated/floor/tiled/milspec/raised,
+/area/security/tactical/red)
 "aWB" = (
 /obj/effect/floor_decal/borderfloor{
 	dir = 5
@@ -22089,8 +22167,8 @@
 	dir = 8;
 	pixel_x = 5
 	},
-/obj/machinery/keycard_auth{
-	pixel_x = 26
+/obj/machinery/newscaster/security_unit{
+	pixel_x = 32
 	},
 /turf/simulated/floor/carpet,
 /area/crew_quarters/heads/hos)
@@ -23367,8 +23445,17 @@
 /obj/effect/floor_decal/corner/red/full{
 	dir = 8
 	},
+/obj/machinery/power/apc{
+	dir = 8;
+	name = "west bump";
+	pixel_x = -24;
+	nightshift_setting = 2
+	},
+/obj/structure/cable/orange{
+	icon_state = "0-4"
+	},
 /turf/simulated/floor/tiled/milspec/raised,
-/area/security/tactical)
+/area/security/tactical/red)
 "bKQ" = (
 /obj/effect/floor_decal/corner/blue/full{
 	dir = 8
@@ -23679,10 +23766,6 @@
 /obj/structure/disposalpipe/segment,
 /obj/effect/floor_decal/industrial/stand_clear/yellow{
 	dir = 1
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4;
-	icon_state = "pipe-c"
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/security/lobby)
@@ -24016,7 +24099,7 @@
 /obj/item/ammo_magazine/ammo_box/b12g,
 /obj/effect/floor_decal/corner/red/full,
 /turf/simulated/floor/tiled/milspec/raised,
-/area/security/tactical)
+/area/security/tactical/red)
 "bTH" = (
 /obj/effect/floor_decal/steeldecal/steel_decals10{
 	dir = 1
@@ -24359,7 +24442,6 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/structure/disposalpipe/segment,
 /obj/machinery/door/airlock/glass_security{
 	name = "Security Processing"
 	},
@@ -27670,6 +27752,10 @@
 /obj/effect/floor_decal/corner/red{
 	dir = 5
 	},
+/obj/item/radio/intercom/department/security{
+	dir = 1;
+	pixel_y = 21
+	},
 /turf/simulated/floor/tiled/dark,
 /area/security/kennels)
 "deS" = (
@@ -28970,7 +29056,7 @@
 	icon_state = "0-8"
 	},
 /turf/simulated/floor/plating,
-/area/security/tactical)
+/area/security/tactical/red)
 "dBp" = (
 /obj/effect/landmark{
 	name = "lightsout"
@@ -32120,9 +32206,14 @@
 	req_access = list(58)
 	},
 /obj/structure/table/rack,
-/obj/item/perfect_tele/one_beacon,
+/obj/item/perfect_tele/one_beacon{
+	pixel_x = 6
+	},
 /obj/item/key/heavyarmor_tank{
 	pixel_x = -12
+	},
+/obj/item/perfect_tele/station_only{
+	pixel_x = -5
 	},
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/heads/hos)
@@ -34421,7 +34512,7 @@
 	req_access = list(1)
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/security/tactical)
+/area/security/tactical/red)
 "fqQ" = (
 /obj/structure/prop/rock/watersharp,
 /turf/simulated/floor/water/acidic/turfpack/muriki,
@@ -35554,7 +35645,7 @@
 /obj/item/plastique,
 /obj/effect/floor_decal/corner/red/borderfull,
 /turf/simulated/floor/tiled/milspec/raised,
-/area/security/tactical)
+/area/security/tactical/red)
 "fLQ" = (
 /obj/structure/sign/nosmoking_2,
 /turf/simulated/wall,
@@ -42172,6 +42263,12 @@
 /obj/structure/bed/chair/office/light{
 	dir = 1
 	},
+/obj/structure/cable/green{
+	icon_state = "4-8"
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals_central7{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/white,
 /area/medical/reception)
 "hSA" = (
@@ -44505,7 +44602,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/milspec/raised,
-/area/security/tactical)
+/area/security/tactical/red)
 "iBg" = (
 /turf/simulated/wall/r_wall,
 /area/medical/reception)
@@ -47905,7 +48002,8 @@
 	name = "vinestart"
 	},
 /obj/item/perfect_tele_beacon/stationary{
-	tele_name = "Evac"
+	tele_name = "Evac";
+	tele_network = "outpost"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/hallway/secondary/exit)
@@ -48280,7 +48378,7 @@
 	},
 /obj/structure/window/reinforced,
 /turf/simulated/floor/tiled/milspec/raised,
-/area/security/tactical)
+/area/security/tactical/red)
 "jJx" = (
 /obj/structure/grille,
 /obj/machinery/door/firedoor/glass,
@@ -49189,18 +49287,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/security/detectives_office)
-"jYt" = (
-/obj/effect/floor_decal/corner/red{
-	dir = 5
-	},
-/obj/structure/sign/department/commander{
-	pixel_y = 32
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/simulated/floor/tiled,
-/area/hallway/security/main)
 "jYw" = (
 /obj/structure/toilet{
 	dir = 4
@@ -50109,7 +50195,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/milspec/raised,
-/area/security/tactical)
+/area/security/tactical/red)
 "kkn" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/fancy/vials,
@@ -53880,9 +53966,6 @@
 /turf/simulated/floor/plating,
 /area/maintenance/scielev)
 "lvo" = (
-/obj/machinery/computer/security/telescreen/bodycamera{
-	pixel_y = -32
-	},
 /obj/machinery/firealarm{
 	dir = 4;
 	pixel_x = 26
@@ -55624,6 +55707,17 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
+/obj/structure/cable/green{
+	icon_state = "4-8"
+	},
+/obj/machinery/button/remote/airlock{
+	desc = "A remote control switch for the medbay foyer.";
+	id = "MedbayFoyer";
+	name = "Medical Entry Doors";
+	pixel_x = -14;
+	pixel_y = 31;
+	req_one_access = list(5)
+	},
 /turf/simulated/floor/tiled/white,
 /area/medical/reception)
 "lVE" = (
@@ -55728,9 +55822,9 @@
 /obj/effect/floor_decal/corner/red{
 	dir = 6
 	},
-/obj/item/radio/intercom/interrogation/observation{
-	dir = 4;
-	pixel_x = 24
+/obj/machinery/alarm{
+	dir = 8;
+	pixel_x = 26
 	},
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/heads/hos)
@@ -56455,7 +56549,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/milspec/raised,
-/area/security/tactical)
+/area/security/tactical/red)
 "mgV" = (
 /obj/structure/cable/green{
 	icon_state = "1-8"
@@ -57616,6 +57710,9 @@
 	},
 /obj/effect/floor_decal/corner/blue/border{
 	dir = 4
+	},
+/obj/structure/cable/green{
+	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/white,
 /area/medical/reception)
@@ -60428,15 +60525,15 @@
 /turf/simulated/floor/tiled/freezer,
 /area/security/detectives_office)
 "nwr" = (
-/obj/item/radio/intercom/department/security{
-	dir = 8;
-	pixel_x = -21
-	},
 /obj/effect/floor_decal/corner/red{
 	dir = 9
 	},
 /obj/machinery/light{
 	dir = 8
+	},
+/obj/machinery/alarm{
+	dir = 4;
+	pixel_x = -26
 	},
 /turf/simulated/floor/tiled/dark,
 /area/security/kennels)
@@ -64229,7 +64326,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/milspec/raised,
-/area/security/tactical)
+/area/security/tactical/red)
 "oMl" = (
 /obj/item/geiger/wall{
 	dir = 1;
@@ -64733,9 +64830,6 @@
 /obj/structure/window/reinforced{
 	health = 1e+006
 	},
-/obj/machinery/light{
-	dir = 4
-	},
 /obj/machinery/door/window/brigdoor/westleft{
 	name = "Energy"
 	},
@@ -64806,7 +64900,7 @@
 	pixel_x = 6
 	},
 /turf/simulated/floor/tiled/milspec/raised,
-/area/security/tactical)
+/area/security/tactical/red)
 "oTO" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
@@ -67592,7 +67686,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/milspec/raised,
-/area/security/tactical)
+/area/security/tactical/red)
 "pUs" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -68813,7 +68907,7 @@
 /obj/item/melee/energy/spear,
 /obj/item/personal_shield_generator/security/strong/loaded,
 /turf/simulated/floor/tiled/milspec/raised,
-/area/security/tactical)
+/area/security/tactical/red)
 "qmt" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -70921,7 +71015,7 @@
 "qTJ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/milspec/raised,
-/area/security/tactical)
+/area/security/tactical/red)
 "qTZ" = (
 /obj/structure/sign/directions/engineering/atmospherics{
 	dir = 6;
@@ -71636,6 +71730,9 @@
 /obj/effect/landmark{
 	name = "nukeitem"
 	},
+/obj/item/perfect_tele{
+	name = "Director's translocator"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/security/nuke_storage)
 "rhZ" = (
@@ -72011,6 +72108,9 @@
 	dir = 1;
 	pixel_y = -4
 	},
+/obj/machinery/computer/security/telescreen/bodycamera{
+	pixel_y = -34
+	},
 /turf/simulated/floor/carpet,
 /area/crew_quarters/heads/hos)
 "rpP" = (
@@ -72174,7 +72274,7 @@
 /obj/item/clothing/head/helmet/combat,
 /obj/effect/floor_decal/corner/red/full,
 /turf/simulated/floor/tiled/milspec/raised,
-/area/security/tactical)
+/area/security/tactical/red)
 "rtd" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
@@ -76008,9 +76108,6 @@
 /turf/simulated/floor/tiled/white,
 /area/medical/exam_room)
 "sGR" = (
-/obj/structure/disposalpipe/trunk{
-	dir = 4
-	},
 /obj/machinery/conveyor{
 	dir = 8;
 	id = "packageSort2"
@@ -76278,8 +76375,11 @@
 /area/engineering/corepower)
 "sKs" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable/orange{
+	icon_state = "1-8"
+	},
 /turf/simulated/floor/tiled/milspec/raised,
-/area/security/tactical)
+/area/security/tactical/red)
 "sKN" = (
 /obj/structure/disposalpipe/trunk{
 	dir = 8
@@ -78799,7 +78899,7 @@
 "tAT" = (
 /obj/machinery/hologram/holopad,
 /turf/simulated/floor/tiled/milspec/raised,
-/area/security/tactical)
+/area/security/tactical/red)
 "tBf" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -79028,8 +79128,11 @@
 	name = "Red Armory Automatic Door";
 	req_one_access = list(1,20,53,58)
 	},
+/obj/structure/cable/orange{
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/tiled/techfloor,
-/area/security/tactical)
+/area/security/tactical/red)
 "tEb" = (
 /obj/structure/disposalpipe/segment{
 	dir = 2;
@@ -79914,7 +80017,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/plating,
-/area/security/tactical)
+/area/security/tactical/red)
 "tTf" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -80277,7 +80380,7 @@
 	},
 /obj/effect/floor_decal/corner/black/full,
 /turf/simulated/floor/tiled/milspec/raised,
-/area/security/tactical)
+/area/security/tactical/red)
 "tXr" = (
 /obj/machinery/camera/network/security{
 	c_tag = "SEC - Checkpoint";
@@ -80406,9 +80509,6 @@
 /turf/simulated/floor/tiled/white,
 /area/medical/medbay3)
 "tYP" = (
-/obj/structure/cable/orange{
-	icon_state = "1-2"
-	},
 /obj/structure/catwalk,
 /obj/effect/floor_decal/flesh{
 	dir = 8
@@ -81125,9 +81225,6 @@
 /turf/simulated/floor/tiled,
 /area/quartermaster/delivery)
 "ujp" = (
-/obj/structure/disposalpipe/trunk{
-	dir = 4
-	},
 /obj/machinery/conveyor{
 	dir = 8;
 	id = "packageSort1"
@@ -81230,7 +81327,7 @@
 	},
 /obj/machinery/light_switch{
 	dir = 1;
-	pixel_x = -27;
+	pixel_x = -24;
 	pixel_y = -29
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -81936,6 +82033,9 @@
 	},
 /obj/structure/cable/green{
 	icon_state = "2-8"
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals_central7{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
 /area/medical/chemistry)
@@ -84158,12 +84258,10 @@
 /obj/item/universal_translator/ear,
 /obj/item/clothing/accessory/holster/hip/black,
 /obj/item/storage/belt/security,
-/obj/item/perfect_tele{
-	name = "Director's translocator"
-	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/item/perfect_tele/station_only,
 /turf/simulated/floor/wood,
 /area/crew_quarters/captain)
 "vhk" = (
@@ -84555,7 +84653,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/security/tactical)
+/area/security/tactical/red)
 "vmm" = (
 /obj/effect/landmark/step_trap,
 /turf/simulated/floor/water/acidic/turfpack/muriki,
@@ -88663,21 +88761,6 @@
 "wyS" = (
 /turf/unsimulated/wall/planetary/muriki,
 /area/mine/unexplored/muriki/valleywest)
-"wzb" = (
-/obj/machinery/door/firedoor/glass,
-/obj/structure/window/reinforced/polarized{
-	dir = 1
-	},
-/obj/structure/window/reinforced/polarized,
-/obj/structure/cable/green{
-	icon_state = "0-8"
-	},
-/obj/structure/cable/green{
-	icon_state = "0-4"
-	},
-/obj/structure/grille,
-/turf/simulated/floor/plating,
-/area/crew_quarters/heads/hos)
 "wzp" = (
 /obj/machinery/hologram/holopad,
 /turf/simulated/floor/wood,
@@ -89816,9 +89899,6 @@
 /obj/structure/window/reinforced{
 	health = 1e+006
 	},
-/obj/machinery/light{
-	dir = 8
-	},
 /obj/machinery/door/window/brigdoor/eastright{
 	name = "Ballistics"
 	},
@@ -89847,7 +89927,7 @@
 /obj/item/ammo_magazine/m16,
 /obj/effect/floor_decal/corner/red/full,
 /turf/simulated/floor/tiled/milspec/raised,
-/area/security/tactical)
+/area/security/tactical/red)
 "wTD" = (
 /obj/structure/toilet{
 	dir = 8
@@ -90229,7 +90309,7 @@
 	},
 /obj/item/gun/energy/bfgtaser,
 /turf/simulated/floor/tiled/milspec/raised,
-/area/security/tactical)
+/area/security/tactical/red)
 "wYW" = (
 /obj/effect/floor_decal/corner_kafel/white/diagonal,
 /obj/structure/cable/green{
@@ -90467,7 +90547,7 @@
 	},
 /obj/effect/floor_decal/corner/red/borderfull,
 /turf/simulated/floor/tiled/milspec/raised,
-/area/security/tactical)
+/area/security/tactical/red)
 "xcu" = (
 /obj/structure/table/standard,
 /obj/effect/floor_decal/corner/blue/border,
@@ -92392,6 +92472,9 @@
 	icon_state = "4-8"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable/orange{
+	icon_state = "2-8"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/security/tactical)
 "xJL" = (
@@ -92601,7 +92684,7 @@
 /area/maintenance/disposal)
 "xNH" = (
 /turf/simulated/floor/tiled/milspec/raised,
-/area/security/tactical)
+/area/security/tactical/red)
 "xNW" = (
 /obj/machinery/mineral/unloading_machine,
 /obj/effect/floor_decal/industrial/warning/full,
@@ -93690,7 +93773,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/milspec/raised,
-/area/security/tactical)
+/area/security/tactical/red)
 "yhr" = (
 /obj/effect/floor_decal/corner_kafel/white/diagonal,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -93861,10 +93944,6 @@
 /turf/simulated/floor/tiled/kafel_full/white,
 /area/muriki/bathroom/cargo)
 "ykn" = (
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 26
-	},
 /obj/effect/floor_decal/spline/plain{
 	dir = 1
 	},
@@ -130108,7 +130187,7 @@ uln
 jno
 fbW
 uAD
-vmL
+aWt
 sbe
 lzd
 aWa
@@ -130593,7 +130672,7 @@ rBO
 vnI
 avc
 sbJ
-wzb
+qRM
 vmL
 wNw
 hMg
@@ -130755,7 +130834,7 @@ sPC
 kfZ
 xqO
 rpK
-qRM
+uAD
 vmL
 wNw
 hMg
@@ -130918,7 +130997,7 @@ pxP
 pxP
 fkw
 uAD
-jYt
+vmL
 wNw
 anV
 aWa
@@ -132718,11 +132797,11 @@ iId
 iId
 iId
 iId
-iId
-iId
-iId
-iId
-iId
+aWu
+aWu
+aWu
+aWu
+aWu
 afu
 jMf
 eCt
@@ -132880,12 +132959,12 @@ iIB
 xaP
 myT
 atz
-iId
+aWu
 avf
 bKL
 wTA
-iId
-iId
+aWu
+aWu
 afr
 eCt
 aBY
@@ -133042,12 +133121,12 @@ wSs
 rBJ
 uEQ
 pWQ
-iId
-xNH
-xNH
+aWu
+aWy
+aWv
 xNH
 bTD
-iId
+aWu
 afr
 eCt
 aqd
@@ -133205,11 +133284,11 @@ aum
 tUw
 xJI
 tDX
-sKs
+aWz
 sKs
 pUc
 iAY
-iId
+aWu
 afr
 eCt
 aqa
@@ -133371,7 +133450,7 @@ fLI
 xNH
 xNH
 tXm
-iId
+aWu
 afr
 eCt
 aqa
@@ -133533,7 +133612,7 @@ qmm
 tAT
 xNH
 oMh
-iId
+aWu
 afr
 eCt
 aqd
@@ -133695,7 +133774,7 @@ wYR
 xNH
 xNH
 rtb
-iId
+aWu
 afr
 eCt
 aqa
@@ -133857,7 +133936,7 @@ qTJ
 qTJ
 mgU
 yhn
-iId
+aWu
 afr
 eCt
 aqa
@@ -134014,12 +134093,12 @@ aus
 aup
 ajm
 qsR
-iId
-xNH
-xNH
+aWu
+aWA
+aWx
 xNH
 xcq
-iId
+aWu
 afr
 eCt
 aqd
@@ -134176,12 +134255,12 @@ ooT
 naQ
 ajm
 iId
-iId
+aWu
 jJo
 kkj
 oTw
-iId
-iId
+aWu
+aWu
 afr
 eCt
 aqa
@@ -138815,7 +138894,7 @@ awx
 keu
 aVH
 aVF
-tky
+aWp
 sTm
 jRZ
 wSx
@@ -138977,7 +139056,7 @@ pSX
 ufC
 aVI
 idW
-pSX
+aWr
 jwP
 aED
 fed

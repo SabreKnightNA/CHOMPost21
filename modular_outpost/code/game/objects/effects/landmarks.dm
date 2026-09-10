@@ -144,7 +144,7 @@
 		prob(20);/mob/living/simple_mob/animal/giant_spider/pepper,
 		prob(10);/mob/living/simple_mob/animal/giant_spider/tunneler,
 		prob(10);/mob/living/simple_mob/animal/giant_spider/webslinger,
-		prob(5);/mob/living/simple_mob/animal/giant_spider/phorogenic,
+		// prob(5);/mob/living/simple_mob/animal/giant_spider/phorogenic,
 		prob(5);/mob/living/simple_mob/animal/giant_spider/thermic,
 		prob(1);/mob/living/simple_mob/animal/giant_spider/broodmother,
 		prob(35);/mob/living/simple_mob/vore/leopardmander,
@@ -492,3 +492,32 @@
 		return
 	T.wet_overlay = image('icons/effects/water.dmi', icon_state = "wet_floor")
 	T.add_overlay(T.wet_overlay)
+
+
+// Damage wires
+/obj/effect/landmark/fray_wire
+	name = "fray wire 0%"
+	var/chance = 0
+	delete_me = TRUE
+
+/obj/effect/landmark/fray_wire/Initialize(mapload)
+	..()
+	return INITIALIZE_HINT_LATELOAD
+
+/obj/effect/landmark/fray_wire/twentyfive
+	name = "fray wire 25%"
+	chance = 25
+
+/obj/effect/landmark/fray_wire/fifty
+	name = "fray wire 50%"
+	chance = 50
+
+/obj/effect/landmark/fray_wire/always_frayed
+	name = "fray wire 100%"
+	chance = 100
+
+/obj/effect/landmark/fray_wire/LateInitialize()
+	if(!prob(chance))
+		return
+	var/obj/structure/cable/wire = locate() in get_turf(src)
+	wire.fray()
